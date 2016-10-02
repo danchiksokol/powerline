@@ -1,0 +1,244 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/simple-contact-info\n"
+"POT-Creation-Date: 2013-05-21 13:24:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: contact-info.php:178
+msgid "Simple Contact Information"
+msgstr ""
+
+#: contact-info.php:180
+msgid "Social links"
+msgstr ""
+
+#: contact-info.php:181
+msgid "Simple Social Icons"
+msgstr ""
+
+#: contact-info.php:181
+msgid "widget is based on this links."
+msgstr ""
+
+#: contact-info.php:185 inc/widgets/contact-social-widget.php:52
+msgid "Twitter"
+msgstr ""
+
+#: contact-info.php:188
+msgid "Link to Twitter page. (example \"https://twitter.com/lehamotovilov\")"
+msgstr ""
+
+#: contact-info.php:192 inc/widgets/contact-social-widget.php:61
+msgid "Facebook"
+msgstr ""
+
+#: contact-info.php:195
+msgid "Link to Facebook page. (example \"http://www.facebook.com/LehaMotovilov\")"
+msgstr ""
+
+#: contact-info.php:199 inc/widgets/contact-social-widget.php:70
+msgid "YouTube"
+msgstr ""
+
+#: contact-info.php:202
+msgid "Link to YouTube page. (example \"http://www.youtube.com/user/AlekseyMotovilov\")"
+msgstr ""
+
+#: contact-info.php:206 inc/widgets/contact-social-widget.php:79
+msgid "Google+"
+msgstr ""
+
+#: contact-info.php:212 inc/widgets/contact-social-widget.php:88
+msgid "LinkedIn"
+msgstr ""
+
+#: contact-info.php:229
+msgid "Contact info"
+msgstr ""
+
+#: contact-info.php:230
+msgid "Simple Contact Info"
+msgstr ""
+
+#: contact-info.php:230
+msgid "widget is based on this data."
+msgstr ""
+
+#: contact-info.php:234 inc/widgets/contact-info-widget.php:39
+msgid "Phone number"
+msgstr ""
+
+#: contact-info.php:238
+msgid "FAX"
+msgstr ""
+
+#: contact-info.php:242
+msgid "Email address"
+msgstr ""
+
+#: contact-info.php:247
+msgid "Address"
+msgstr ""
+
+#: contact-info.php:248
+msgid "Simple Google Map, Simple Address Info"
+msgstr ""
+
+#: contact-info.php:248
+msgid "widgets is based on this data."
+msgstr ""
+
+#: contact-info.php:252
+msgid "Country"
+msgstr ""
+
+#: contact-info.php:256
+msgid "State"
+msgstr ""
+
+#: contact-info.php:260
+msgid "City"
+msgstr ""
+
+#: contact-info.php:264
+msgid "Street"
+msgstr ""
+
+#: contact-info.php:268
+msgid "Zip code"
+msgstr ""
+
+#: contact-info.php:275
+msgid "Update info"
+msgstr ""
+
+#: inc/pages/contact-add-social.php:32
+msgid "Simple Add New Social Network"
+msgstr ""
+
+#: inc/pages/contact-add-social.php:37
+msgid "Name"
+msgstr ""
+
+#: inc/pages/contact-add-social.php:41
+msgid "Just add new Social Network."
+msgstr ""
+
+#: inc/pages/contact-add-social.php:48
+msgid "Add New"
+msgstr ""
+
+#: inc/pages/contact-add-social.php:52
+msgid "Remove Custom Social Network"
+msgstr ""
+
+#: inc/pages/contact-help.php:15
+msgid "Simple Help"
+msgstr ""
+
+#: inc/pages/contact-social.php:145
+msgid "Simple Setup Social Icons"
+msgstr ""
+
+#: inc/pages/contact-social.php:147
+msgid "Select from the existing icons"
+msgstr ""
+
+#: inc/pages/contact-social.php:175
+msgid "Custom icons."
+msgstr ""
+
+#: inc/pages/contact-social.php:214
+msgid "Update"
+msgstr ""
+
+#: inc/pages/contact-social.php:219
+msgid "Upload your custom icon"
+msgstr ""
+
+#: inc/pages/contact-social.php:223
+msgid "Select jpeg, jpg, png file."
+msgstr ""
+
+#: inc/pages/contact-social.php:227
+msgid "Select icons category."
+msgstr ""
+
+#: inc/pages/contact-social.php:234
+msgid "Upload"
+msgstr ""
+
+#: inc/widgets/contact-address-widget.php:23
+#: inc/widgets/contact-googlemaps-widget.php:23
+#: inc/widgets/contact-info-widget.php:22
+#: inc/widgets/contact-social-widget.php:26
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/contact-googlemaps-widget.php:32
+msgid "Type"
+msgstr ""
+
+#: inc/widgets/contact-googlemaps-widget.php:34
+msgid "Select type"
+msgstr ""
+
+#: inc/widgets/contact-googlemaps-widget.php:41
+msgid "Width"
+msgstr ""
+
+#: inc/widgets/contact-googlemaps-widget.php:50
+msgid "Height"
+msgstr ""
+
+#: inc/widgets/contact-googlemaps-widget.php:59
+msgid "Zoom"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:47
+msgid "Phone label"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:57
+msgid "Fax number"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:65
+msgid "Fax label"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:75
+msgid "Email"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:83
+msgid "Email label"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:100
+msgid "Phone:"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:101
+msgid "Fax:"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:102
+msgid "Email:"
+msgstr ""
+
+#: inc/widgets/contact-social-widget.php:35
+msgid "Orientation"
+msgstr ""
+
+#: inc/widgets/contact-social-widget.php:37
+msgid "Select orientation"
+msgstr ""

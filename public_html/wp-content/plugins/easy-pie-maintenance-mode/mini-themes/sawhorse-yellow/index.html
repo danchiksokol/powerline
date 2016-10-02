@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <!-- 
+         'Sawhorse Yellow' Mini-Theme running on EZP Maintenance Mode Plugin
+         snapcreek.com
+    -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{{title}}</title>
+
+        <link href="./css/style.css" media="all" rel="stylesheet" type="text/css" />
+
+        <style type="text/css">
+            {{css}}
+        </style>
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+
+            <div class="wrapper-content">
+
+                <div class="header">
+                    <h1>
+                        {{header}}
+                    </h1>
+                </div>
+
+                <div class="image-logo">
+                    <div class="toLeft first">
+                        <img src="./images/maintenance.png" />
+                    </div>
+                    <div class="toLeft second">
+                        <!--                    <a href="#"><img src="./images/logo.png" /></a>-->
+                        <a href="#"><img id="logo-img" src="{{logo_url}}" /></a>
+                    </div>
+                    <div class="toRight">
+                        <a href="#"><img src="./images/alert.png" /></a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="content-wrapper">
+                    <div class="headline">
+                        {{headline}}
+                    </div>
+                    <div class="content">
+                        {{message}}
+                    </div>
+                </div>
+
+                <!--            <div class="footer">
+                                © 2016 Snap Creek LLC. All Rights Reserved. <a href="https://snapcreek.com" target="_blank">Designed by: Snap Creek Software</a> 
+                            </div>-->        
+            </div>
+
+        </div>
+
+        <script type="text/javascript">
+            // Internet Explorer has problems with the graphical background on larger resolutions so just getting rid of it for that browser
+            var isIE = ((navigator.appName == 'Microsoft Internet Explorer') || ((navigator.appName == 'Netscape') && (new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})").exec(navigator.userAgent) != null)));
+
+            if(isIE) {                           
+                var body = document.getElementsByTagName('body');
+                
+                body[0].style.background = "#aac822";
+            }
+                     
+            var image = document.getElementById("logo-img");
+         
+            function ezp_hideImage() {
+                image.style.display = "none";
+            }                                                                
+                
+            if(image.getAttribute('src') == '') {
+                        
+                ezp_hideImage();
+            }
+                
+            image.addEventListener('error', ezp_hideImage, true);
+            
+        </script>    
+
+    </body>
+</html>

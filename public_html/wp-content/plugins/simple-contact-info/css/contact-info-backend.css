@@ -1,0 +1,39 @@
+.icon-sci-contact {float: left; margin: 9px 10px 0 0;}
+.icon-sci-contact img {width: 30px;}
+.sci-social-icons li{float:left; margin-left: 10px; width: 70px;}
+.sci-social-icons img{width: 32px; height: 32px;}
+.sci-social-icons input{margin: -10px 0 0 5px;}
+
+.sci-social-icons li{
+	position: relative;
+}
+.sci-social-icons li a{
+	display: none;
+}
+
+.sci-social-icons li:hover a{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top: 32px;
+	border-bottom: 1px black dotted;
+	height: 16px;
+	width: 35px;
+	text-decoration: none;
+}
+
+.sci-social-icons label div{
+	opacity: 0;
+	border-radius: 3px;
+}
+
+.sci-social-icons .removed label div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 32px;
+	height: 32px;
+	background-color: black;
+	opacity: 0.65;
+}

@@ -1,0 +1,4 @@
+.sci-social-icons li{ margin: 0 5px 0 0 !important; list-style-type: none;}
+.sci-social-icons-horizontal li{ float:left; }
+.sci-social-icons { overflow: hidden; }
+.sci-social-icons img { box-shadow: none !important; }

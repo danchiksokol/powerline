@@ -1,0 +1,18 @@
+8104.935 (1) Opened log file at time: Sun, 04 Sep 2016 04:00:19 +0000 on http://plg.bragin.ru
+8104.938 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.20.22 WP: 4.6 PHP: 5.4.45 (Linux vps3863.vps.host.ru 2.6.32-042stab112.15 #1 SMP Fri Jun 24 15:33:57 MSK 2016 i686) MySQL: 5.5.47 WPLANG: ru_RU Server: Apache/2.2.15 (CentOS) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.1M | 47M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG: C ZipArchive::addFile: Y
+8104.940 (1) Free space on disk containing Updraft's temporary directory: 4775.1 MB
+8104.941 (1) It looks like WordPress's scheduler has started multiple instances of this resumption
+8104.947 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1472961616.3, time_now=1472961620, diff=3, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+8104.949 (1) Rescheduling resumption 2: moving to 600 seconds from now (1472962220)
+8104.958 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 1050 + 0 = 1050
+0926.501 (2) Opened log file at time: Mon, 05 Sep 2016 01:58:11 +0000 on http://plg.bragin.ru
+0926.502 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.20.22 WP: 4.6 PHP: 5.4.45 (Linux vps3863.vps.host.ru 2.6.32-042stab112.15 #1 SMP Fri Jun 24 15:33:57 MSK 2016 i686) MySQL: 5.5.47 WPLANG: ru_RU Server: Apache/2.2.15 (CentOS) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.1M | 49.5M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0926.504 (2) Free space on disk containing Updraft's temporary directory: 4689.1 MB
+0926.508 (2) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1473040691.4, time_now=1473040691.5, diff=0, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0926.510 (2) Rescheduling resumption 3: moving to 1077 seconds from now (1473041768)
+0926.516 (2) To decrease the likelihood of overlaps, increasing resumption interval to: 957 + 120 = 1077
+79494.157 (3) Opened log file at time: Mon, 05 Sep 2016 23:47:39 +0000 on http://plg.bragin.ru
+79494.161 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.20.22 WP: 4.6 PHP: 5.4.45 (Linux vps3863.vps.host.ru 2.6.32-042stab112.15 #1 SMP Fri Jun 24 15:33:57 MSK 2016 i686) MySQL: 5.5.47 WPLANG: ru_RU Server: Apache/2.2.15 (CentOS) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 48.1M | 48.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG: C ZipArchive::addFile: Y
+79494.163 (3) Free space on disk containing Updraft's temporary directory: 4667.9 MB
+79494.173 (3) Backup run: resumption=3, nonce=bb12da9db900, begun at=1473039764 (79495s ago), job type=backup, previous check-in=0s
+79494.175 (3) Terminate: This backup job is already finished (1).

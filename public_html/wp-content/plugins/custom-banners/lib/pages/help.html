@@ -1,0 +1,95 @@
+<style>
+	#custom_banners_help {
+		max-width: 750px;
+	}
+	#custom_banners_help > div {
+		padding-top: 25px;
+	}
+	#custom_banners_help > div > h3 {
+		border-bottom: 1px solid lightgray;
+		max-width: 650px;
+		padding-bottom: 7px;
+	}
+	#custom_banners_help p {
+		max-width: 550px;
+	}
+	#custom_banners_help li {
+		max-width: 550px;
+	}
+	#custom_banners_help ul{
+		list-style-type: disc;
+		margin-left: 2em;
+	}
+</style>
+<div id="custom_banners_help">
+	<h2>Help &amp; Instructions</h2>
+	<p>This page includes all kinds of helpful tips for getting you up and running.</p>
+	<h3>Contents:</h3>
+	<ol class="quick_nav">
+		<li><a href="#add_a_new_banner">Adding a New Banner</a></li>
+		<li><a href="#edit_a_banner">Editing a Banner</a></li>
+		<li><a href="#delete_a_banner">Deleting a Banner</a></li>
+		<li><a href="#outputting_banners">Outputting Banners</a></li>
+		<li><a href="#outputting_banner_slider">Outputting Fading or Sliding Banners</a></li>
+	</ol>
+	<div id="add_a_new_banner">
+		<h3 id="adding-a-new-banner">Adding a New Banner</h3>
+		<p>Adding a New Banner is easy! There are 3 ways to start adding a new banner</p>
+		<p><strong>How to Add a New Banner</strong></p>
+		<ol>
+		<li>Click on "+ New" -&gt; Banner, from the Admin Bar or</li>
+		<li>Click on "Add New Banner" from the Menu Bar in the WordPress Admin or</li>
+		<li>Click on "Add New Banner" from the top of the list of Banners, if you're viewing them all.</li>
+		</ol>
+		<h3 id="new-banner-content">New Banner Content</h3>
+		<p>You have a few things to pay attention to:</p>
+		<ul>
+		<li><strong>Banner Title:</strong> this is for internal reference.</li>
+		<li><strong>Banner Body:</strong> this is the content of your Banner. This will be output in the Call to Action bar.</li>
+		<li><strong>Target URL:</strong> where a user should be sent when they click on the banner or the call to action button.</li>
+		<li><strong>Call To Action Text:</strong> the "Call To Action" (text) of the button. Leave this field blank to hide the call to action button.</li>
+		<li><strong>CSS Class:</strong> any extra CSS classes that you would like applied to this banner.</li>
+		<li><strong>Featured Image:</strong> this image is shown as the banner.</li>
+		</ul>
+	</div>
+	<div id="edit_a_banner">
+		<h3 id="editing-a-banner">Editing a Banner</h3>
+		<p><em>This is as easy as adding a New Banner!</em></p>
+		<ol>
+		<li>Click on "Banners" in the Admin Menu.</li>
+		<li>Hover over the Banner you want to Edit and click "Edit".</li>
+		<li>Change the fields to the desired content and click "Update".</li>
+		</ol>
+	</div>
+	<div id="delete_a_banner">
+		<h3 id="deleting-a-banner">Deleting a Banner</h3>
+		<p><em>This is as easy as adding a New Banner!</em></p>
+		<ol>
+		<li>Click on "Banners" in the Admin Menu.</li>
+		<li>Hover over the Banner you want to Delete and click "Delete". You can also change the Status of a Banner, if you want to keep it on file.</li>
+		</ol>
+	</div>
+	<div id="outputting_banners">
+		<h3 id="outputting-banners">Outputting Banners</h3>
+		<ul>
+		<li>To output a Random Banner, place the shortcode <code>[banner]</code> in the desired area of the Page or Post Content.</li>
+		<li>To output a specific Banner, place the shortcode <code>[banner id=123]</code> in the desired area of the Page or Post Content.</li>
+		<li>To output a Random Banner from a Specific Group, place the shortcode <code>[banner group='test']</code> in the desired area of the Page or Post Content.</li>
+		<li>To control the postion of the Caption, use the attribute caption_position="left".  Acceptable values are left, right, top, bottom.  For example, <code>[banner caption_positon="left"]</code>.</li>
+		<li>To use an image tag, instead of background image, for the banner, add the attribute "use_image_tag=true" to your banner shortcode.  For example, <code>[banner use_image_tag=true]</code>.</li>
+		</ul>
+	</div>
+	<div id="outputting_banner_slider">
+		<h3 id="outputting-fading-or-sliding-banners">Outputting Fading or Sliding Banners</h3>
+		<ul>
+		<li>To output Random Banners from a Specific Group, place the shortcode <code>[banner group='test' count='3' transition='scrollHorz' timer='2000']</code> in the desired area of the Page or Post Content.  Change the value of count from 3 to however many slides you want to use.  For transition, use either 'scrollHorz' or 'fade'.  For timer, use 1000 times the number of seconds you want between transitions (ie, for 4 seconds input 4000.)</li>
+		<li>To output Random Banners, place the shortcode <code>[banner count='3' transition='scrollHorz' timer='2000']</code> in the desired area of the Page or Post Content.  Change the value of count from 3 to however many slides you want to use.  For transition, use either 'scrollHorz' or 'fade'.  For timer, use 1000 times the number of seconds you want between transitions (ie, for 4 seconds input 4000.)</li>
+		<li>Supported transitions in the free version are <code>scrollHorz</code>,<code>fade</code>.</li>
+		<li>To Show Pager Icons below your Banner, use the attribute <code>pager='true'</code> or <code>pager='1'</code>.  On the Widget, check the box next to Show Pager Icons.</li>
+		<li>To have the Slideshow Pause on Hover, use the attribute <code>pause_on_hover=true</code>.  Defaults to false.</li>
+		<li><strong>NOTE:</strong> Advanced Transitions are available with the <a href="http://goldplugins.com/our-plugins/custom-banners/">Pro version of Custom Banners</a></li>
+		<li>LIVE Examples are available <a href="http://goldplugins.com/documentation/custom-banners-documentation/custom-banners-pro-examples/">here</a>.</li>
+		<li>Supported transitions in the Pro version are <code>scrollVert</code>,<code>fadeOut</code>,<code>flipHorz</code>,<code>flipVert</code>, and <code>tileSlide</code>.</li>
+		</ul>
+	</div>
+</div>

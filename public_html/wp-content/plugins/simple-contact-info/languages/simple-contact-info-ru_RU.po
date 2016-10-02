@@ -1,0 +1,550 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Contact Info v1.1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-23 12:42+0200\n"
+"PO-Revision-Date: 2013-09-19 13:07:47+0000\n"
+"Last-Translator: LehaMotovilov <lehaqs@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: contact-info.php:59
+#@ simple-contact-info
+msgid "Settings"
+msgstr "Настройки"
+
+#: contact-info.php:84
+#: contact-info.php:246
+#@ simple-contact-info
+msgid "Contact info"
+msgstr "Контактная информация"
+
+#: contact-info.php:85
+#: inc/pages/contact-help.php:17
+#@ simple-contact-info
+msgid "Social icons"
+msgstr "Настройка иконок"
+
+#: contact-info.php:86
+#@ simple-contact-info
+msgid "Add social network"
+msgstr "Добавление социальной сети"
+
+#: contact-info.php:87
+#@ simple-contact-info
+msgid "Help"
+msgstr "Помощь"
+
+#: contact-info.php:185
+#@ simple-contact-info
+msgid "Information successfully updated."
+msgstr "Информация успешно обновлена."
+
+#: contact-info.php:194
+#@ simple-contact-info
+msgid "Simple Contact Information"
+msgstr "Контактная информация"
+
+#: contact-info.php:196
+#@ simple-contact-info
+msgid "Social links"
+msgstr "Ссылки на социальные сети"
+
+#: contact-info.php:198
+#: contact-info.php:247
+#: contact-info.php:269
+#@ simple-contact-info
+msgid "This information is used by"
+msgstr "Эта информация используется в виджете:"
+
+#: contact-info.php:198
+#: inc/pages/contact-help.php:18
+#@ simple-contact-info
+msgid "Simple Social Icons"
+msgstr "Simple Social Icons"
+
+#: contact-info.php:202
+#@ default
+msgid "Twitter"
+msgstr "Twitter"
+
+#: contact-info.php:205
+#@ simple-contact-info
+msgid "Link to Twitter page. (example \"https://twitter.com/lehamotovilov\")"
+msgstr "Ссылка на Twitter аккаунт (например: \"https://twitter.com/lehamotovilov\" )"
+
+#: contact-info.php:209
+#@ default
+msgid "Facebook"
+msgstr "Facebook"
+
+#: contact-info.php:212
+#@ simple-contact-info
+msgid "Link to Facebook page. (example \"http://www.facebook.com/LehaMotovilov\")"
+msgstr "Ссылка на Facebook аккаунт (например: \"http://www.facebook.com/LehaMotovilov\")"
+
+#: contact-info.php:216
+#@ default
+msgid "YouTube"
+msgstr "YouTube"
+
+#: contact-info.php:219
+#@ simple-contact-info
+msgid "Link to YouTube page. (example \"http://www.youtube.com/user/AlekseyMotovilov\")"
+msgstr "Ссылка на YouTube аккаунт (например: \"http://www.youtube.com/user/AlekseyMotovilov\")"
+
+#: contact-info.php:223
+#@ default
+msgid "Google+"
+msgstr "Google+"
+
+#: contact-info.php:229
+#@ default
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#. translators: plugin header field 'Name'
+#: contact-info.php:0
+#: contact-info.php:247
+#@ simple-contact-info
+msgid "Simple Contact Info"
+msgstr "Simple Contact Info"
+
+#: contact-info.php:251
+#: inc/widgets/contact-info-widget.php:39
+#@ simple-contact-info
+msgid "Phone number"
+msgstr "Телефон"
+
+#: contact-info.php:259
+#@ default
+msgid "FAX"
+msgstr "FAX"
+
+#: contact-info.php:263
+#@ simple-contact-info
+msgid "Email address"
+msgstr "Email"
+
+#: contact-info.php:268
+#@ simple-contact-info
+msgid "Address"
+msgstr "Адрес"
+
+#: contact-info.php:269
+#@ simple-contact-info
+msgid "Simple Google Map, Simple Address Info"
+msgstr "Simple Google Map, Simple Address Info"
+
+#: contact-info.php:273
+#@ simple-contact-info
+msgid "Country"
+msgstr "Страна"
+
+#: contact-info.php:277
+#@ simple-contact-info
+msgid "State"
+msgstr "Штат"
+
+#: contact-info.php:281
+#@ simple-contact-info
+msgid "City"
+msgstr "Город"
+
+#: contact-info.php:285
+#@ simple-contact-info
+msgid "Street"
+msgstr "Улица"
+
+#: contact-info.php:289
+#@ simple-contact-info
+msgid "Zip code"
+msgstr "Zip код"
+
+#: contact-info.php:296
+#@ simple-contact-info
+msgid "Update info"
+msgstr "Обновить информацию"
+
+#: inc/pages/contact-add-social.php:40
+#@ simple-contact-info
+msgid " was successfully added."
+msgstr " успешно добавлена."
+
+#: inc/pages/contact-add-social.php:43
+#@ simple-contact-info
+msgid "You forgot write name."
+msgstr "Вы забыли написать название."
+
+#: inc/pages/contact-add-social.php:53
+#@ simple-contact-info
+msgid "Simple Add New Social Network"
+msgstr "Добавление новой социальной сети"
+
+#: inc/pages/contact-add-social.php:58
+#@ simple-contact-info
+msgid "Name"
+msgstr "Название"
+
+#: inc/pages/contact-add-social.php:62
+#@ simple-contact-info
+msgid "Just add new Social Network."
+msgstr "Просто добавьте социальную сеть."
+
+#: inc/pages/contact-add-social.php:69
+#@ simple-contact-info
+msgid "Add New"
+msgstr "Добавить новую"
+
+#: inc/pages/contact-add-social.php:73
+#@ simple-contact-info
+msgid "Remove Custom Social Network"
+msgstr "Удаление социальной сети"
+
+#: inc/pages/contact-add-social.php:89
+#@ simple-contact-info
+msgid "Delete social network?"
+msgstr "Добавление новой социальной сети"
+
+#: inc/pages/contact-add-social.php:90
+#@ simple-contact-info
+msgid "These social network will be permanently deleted and cannot be recovered. Are you sure?"
+msgstr "Эта социальная сеть будет удалена без возможности восстановления. Вы уверены что хотите ее удалить?"
+
+#: inc/pages/contact-social.php:113
+#@ simple-contact-info
+msgid "Settings succesfully updated."
+msgstr "Настройки успешно сохранены."
+
+#: inc/pages/contact-social.php:146
+#@ simple-contact-info
+msgid "Simple Setup Social Icons"
+msgstr "Настройка иконок"
+
+#: inc/pages/contact-social.php:148
+#@ simple-contact-info
+msgid "Select from the existing icons"
+msgstr "Выберите из предложенных иконок"
+
+#: inc/pages/contact-social.php:176
+#@ simple-contact-info
+msgid "Custom icons."
+msgstr "Свои иконки"
+
+#: inc/pages/contact-add-social.php:80
+#: inc/pages/contact-social.php:194
+#@ simple-contact-info
+msgid "Delete"
+msgstr "Удалить"
+
+#: inc/pages/contact-social.php:215
+#@ simple-contact-info
+msgid "Update"
+msgstr "Обновить"
+
+#: inc/pages/contact-social.php:220
+#@ simple-contact-info
+msgid "Upload your custom icon"
+msgstr "Загрузить свою иконку"
+
+#: inc/pages/contact-social.php:224
+#@ simple-contact-info
+msgid "Select jpeg, jpg, png file."
+msgstr "Выберите файл с расширением jpeg, jpg, png."
+
+#: inc/pages/contact-social.php:228
+#@ simple-contact-info
+msgid "Select icons category."
+msgstr "Выберите социальную сеть"
+
+#: inc/pages/contact-social.php:235
+#@ simple-contact-info
+msgid "Upload"
+msgstr "Загрузить"
+
+#: inc/pages/contact-social.php:240
+#@ simple-contact-info
+msgid "You must select an icon for each social network."
+msgstr "Вы должны выбрать иконку для каждой социальной сети."
+
+#: inc/pages/contact-social.php:242
+#@ simple-contact-info
+msgid "Delete icon?"
+msgstr "Удалить иконку?"
+
+#: inc/pages/contact-social.php:243
+#@ simple-contact-info
+msgid "These icon will be permanently deleted and cannot be recovered. Are you sure?"
+msgstr "Эта иконка будет удалена без возможности восстановления. Вы уверены что хотите ее удалить?"
+
+#: inc/pages/contact-help.php:15
+#@ simple-contact-info
+msgid "Simple Help"
+msgstr "Помощь"
+
+#: inc/pages/contact-help.php:18
+#@ simple-contact-info
+msgid "If you want to display social icons, use widget"
+msgstr "Если вы хотите отобразить иконки социальных сетей, просто используйте виджет"
+
+#: inc/pages/contact-help.php:19
+#@ simple-contact-info
+msgid "You can select icons from existing icon packs or you can upload your images."
+msgstr "Вы можете использовать предложенные иконки или загрузить свои."
+
+#: inc/pages/contact-help.php:20
+#@ simple-contact-info
+msgid "If you want to get social link, use"
+msgstr "Если хотите получить ссылки на социальные сети, используйте"
+
+#: inc/pages/contact-help.php:21
+#@ simple-contact-info
+msgid "To get url to selected social icon, use"
+msgstr "Чтобы получить ссылку на выбранную иконку, используйте"
+
+#: inc/pages/contact-help.php:22
+#@ simple-contact-info
+msgid "Or you can use shortcode"
+msgstr "Или вы можете использовать шорткод"
+
+#: inc/pages/contact-help.php:22
+#@ simple-contact-info
+msgid "or if you want vertical"
+msgstr "или вертикальное расположение"
+
+#: inc/pages/contact-help.php:25
+#@ simple-contact-info
+msgid "Google Map Widget"
+msgstr "Виджет Google Map"
+
+#: inc/pages/contact-help.php:26
+#: inc/pages/contact-help.php:32
+#@ simple-contact-info
+msgid "Just use widget"
+msgstr "Просто используйте виджет"
+
+#: inc/pages/contact-help.php:27
+#@ simple-contact-info
+msgid "Widget display a Google Map based on the address that you entered in the settings."
+msgstr "Виджет отображает Google Map, основываясь на данных, которые вы ввели в настройках."
+
+#: inc/pages/contact-help.php:28
+#@ simple-contact-info
+msgid "You can setup width, height, zoom and type of map(dynamic, static)."
+msgstr "Вы можете настроить высоту, ширину, масштаб и тип карты (динамическая или статическая)."
+
+#: inc/pages/contact-help.php:31
+#@ simple-contact-info
+msgid "Contact information"
+msgstr "Контактная информация"
+
+#: inc/pages/contact-help.php:33
+#@ simple-contact-info
+msgid "If you want to get contact information, use"
+msgstr "Чтобы получить контактную информацию, используйте"
+
+#: inc/pages/contact-help.php:33
+#@ simple-contact-info
+msgid "etc"
+msgstr "и так далее"
+
+#: inc/pages/contact-help.php:34
+#@ simple-contact-info
+msgid "List of options:"
+msgstr "Список опций:"
+
+#: inc/pages/contact-help.php:47
+#@ simple-contact-info
+msgid "Support"
+msgstr "Помощь"
+
+#: inc/pages/contact-help.php:48
+#@ simple-contact-info
+msgid "To get support or if you find bug - just write me"
+msgstr "Чтобы получить помощь по плагину или если вы нашли баг - контактный email:"
+
+#: inc/pages/contact-help.php:49
+#@ simple-contact-info
+msgid "Or you can find me on Facebook:"
+msgstr "Я в Facebook:"
+
+#: inc/pages/contact-help.php:50
+#@ simple-contact-info
+msgid "Or you can find me on Vkontakte:"
+msgstr "Я в Вконтакте:"
+
+#: inc/widgets/contact-social-widget.php:12
+#@ simple-contact-info
+msgid "Displays a social icons with links."
+msgstr "Отображает ссылки на социальные сети."
+
+#: inc/widgets/contact-address-widget.php:23
+#: inc/widgets/contact-googlemaps-widget.php:23
+#: inc/widgets/contact-info-widget.php:22
+#: inc/widgets/contact-social-widget.php:45
+#@ simple-contact-info
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/widgets/contact-social-widget.php:54
+#@ simple-contact-info
+msgid "Orientation"
+msgstr "Ориентация"
+
+#: inc/widgets/contact-social-widget.php:56
+#@ simple-contact-info
+msgid "Select orientation"
+msgstr "Выберите ориентацию"
+
+#: inc/widgets/contact-social-widget.php:63
+#@ simple-contact-info
+msgid "Specify icons to be displayed on the site. You can change the order of these icons."
+msgstr "Укажите какие иконки отображать на сайте. Так же вы можете поменять порядок вывода иконок."
+
+#: inc/widgets/contact-address-widget.php:12
+#@ simple-contact-info
+msgid "Displays address information."
+msgstr "Отображает адрес."
+
+#: inc/widgets/contact-info-widget.php:12
+#@ simple-contact-info
+msgid "Displays contact (phone, fax, email) information."
+msgstr "Отображает контактную информацию (телефон, факс, email)."
+
+#: inc/widgets/contact-info-widget.php:31
+#@ simple-contact-info
+msgid "Show"
+msgstr "Укажите какую информацию показывать"
+
+#: inc/widgets/contact-info-widget.php:47
+#@ simple-contact-info
+msgid "Phone label"
+msgstr "Метка"
+
+#: inc/widgets/contact-info-widget.php:74
+#@ simple-contact-info
+msgid "Fax number"
+msgstr "Факс"
+
+#: inc/widgets/contact-info-widget.php:82
+#@ simple-contact-info
+msgid "Fax label"
+msgstr "Метка"
+
+#: inc/widgets/contact-info-widget.php:92
+#@ simple-contact-info
+msgid "Email"
+msgstr "Email"
+
+#: inc/widgets/contact-info-widget.php:100
+#@ simple-contact-info
+msgid "Email label"
+msgstr "Метка"
+
+#: inc/widgets/contact-info-widget.php:118
+#@ simple-contact-info
+msgid "Phone:"
+msgstr "Телефон:"
+
+#: inc/widgets/contact-info-widget.php:120
+#@ simple-contact-info
+msgid "Fax:"
+msgstr "Fax:"
+
+#: inc/widgets/contact-info-widget.php:121
+#@ simple-contact-info
+msgid "Email:"
+msgstr "Email:"
+
+#: inc/widgets/contact-googlemaps-widget.php:12
+#@ simple-contact-info
+msgid "Displays a Google Map based on the address that you entered in the settings."
+msgstr "Виджет отображает Google Map основываясь на данных которые вы ввели в настройках."
+
+#: inc/widgets/contact-googlemaps-widget.php:32
+#@ simple-contact-info
+msgid "Type"
+msgstr "Тип"
+
+#: inc/widgets/contact-googlemaps-widget.php:34
+#@ default
+msgid "Select type"
+msgstr "Выберите тип"
+
+#: inc/widgets/contact-googlemaps-widget.php:41
+#@ simple-contact-info
+msgid "Width"
+msgstr "Ширина"
+
+#: inc/widgets/contact-googlemaps-widget.php:50
+#@ simple-contact-info
+msgid "Height"
+msgstr "Высота"
+
+#: inc/widgets/contact-googlemaps-widget.php:59
+#@ simple-contact-info
+msgid "Zoom"
+msgstr "Масштаб"
+
+#. translators: plugin header field 'PluginURI'
+#: contact-info.php:0
+#@ simple-contact-info
+msgid "http://wordpress.org/plugins/simple-contact-info/"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: contact-info.php:0
+#@ simple-contact-info
+msgid "You can write contact information (facebook, phone, fax, address etc). You can use widgets or shortcode to display it anywhere you want."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: contact-info.php:0
+#@ simple-contact-info
+msgid "LehaMotovilov"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: contact-info.php:0
+#@ simple-contact-info
+msgid "http://lehaqs.wordpress.com/"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: contact-info.php:0
+#@ simple-contact-info
+msgid "1.1.3"
+msgstr ""
+
+#: contact-info.php:255
+#@ simple-contact-info
+msgid "Mobile phone number"
+msgstr "Номер мобильного"
+
+#: inc/widgets/contact-info-widget.php:56
+#@ simple-contact-info
+msgid "Mobile Phone number"
+msgstr "Номер мобильного"
+
+#: inc/widgets/contact-info-widget.php:64
+#@ simple-contact-info
+msgid "Mobile Phone label"
+msgstr "Метка"
+
+#: inc/widgets/contact-info-widget.php:119
+#@ simple-contact-info
+msgid "Mobile Phone:"
+msgstr "Номер мобильного"
+

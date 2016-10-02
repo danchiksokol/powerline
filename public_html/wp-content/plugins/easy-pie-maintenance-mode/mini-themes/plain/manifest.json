@@ -1,0 +1,16 @@
+{
+    "page": "index.html",
+    "title": "Plain Jane",
+    "description": "A very plain theme.",
+    "author_name": "Snap Creek Software",
+    "website_url": "https://snapcreek.com/support/",
+    "screenshot": "images/screenshot.png",
+    "google_plus_author_url": "https://plus.google.com/+Snapcreek/posts",
+    "original_release_date": "2013/10/20", 
+    "latest_version_date": "2016/09/14",
+    "version": "1.1.1",
+    "release_notes": "Updated the metadata",
+    "autodownload" : true,
+    "responsive" : true,
+    "downloaded": false 
+}

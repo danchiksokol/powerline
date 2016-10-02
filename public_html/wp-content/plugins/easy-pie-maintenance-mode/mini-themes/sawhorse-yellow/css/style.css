@@ -1,0 +1,163 @@
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+body
+{
+	background:url(../images/pattern.png) repeat center center #aac822;
+	font-family: 'Roboto', sans-serif;
+	color:#000000;  
+}
+
+
+.wrapper
+{
+	max-width:715px;
+	width:100%;
+	/*RSR margin:22px auto 0 auto;*/
+    margin: 22px auto 22px auto;
+}
+
+
+.wrapper .wrapper-content
+{
+	width:86.01398601398601%;
+	background:#fbfcf4;
+	border-radius:45px;
+	-moz-border-radius:45px;
+	-webkit-border-radius:45px;
+	padding:15px 6.993006993006993%;    
+}
+
+.wrapper .wrapper-content .header h1
+{
+	color:#000000;
+	font-size:13px;
+	text-align:center;
+	font-weight:normal;
+}
+
+.wrapper .wrapper-content .image-logo
+{
+	margin-top:20px;
+	position:relative;
+}
+
+.wrapper .wrapper-content .image-logo .toLeft.first
+{
+	width:41.6260162601626%;
+	margin-left:-125px;
+}
+
+.wrapper .wrapper-content .image-logo .toLeft.first img
+{
+	max-width:256px;
+	width:100%;
+    
+}
+
+.wrapper .wrapper-content .image-logo .toLeft.second
+{
+	margin-top:26px;
+	/*width:52.03252032520325%;*/
+    text-align:center;
+    width:65%;
+}
+
+.wrapper .wrapper-content .image-logo .toLeft.second img
+{
+	max-width:320px;
+    height: 71px;
+    width:auto;
+}
+
+.wrapper .wrapper-content .image-logo .toRight
+{
+	margin-top:26px;
+	width:35.44715447154472%;
+	text-align:right;
+	margin-right:-140px;
+}
+
+.wrapper .wrapper-content .image-logo .toRight img
+{
+	max-width:218px;
+	width:100%;
+}
+
+
+@media screen and (max-width:600px)
+{
+	
+	.wrapper
+	{
+		margin-bottom:22px;		
+	}
+	
+	.wrapper .wrapper-content .image-logo .toLeft.first
+	{
+		display:none;		
+	}
+	
+	.wrapper .wrapper-content .image-logo .toLeft.second
+	{
+		width:100%;
+		text-align:center;		
+	}
+	
+	.wrapper .wrapper-content .image-logo .toRight
+	{
+		display:none;		
+	}
+}
+
+
+.wrapper .wrapper-content .content-wrapper .headline
+{
+	font-size:50px;
+	font-weight:700;
+	text-align:center;
+	color:#000000;
+	margin-top:23px;
+	margin-bottom:40px;
+}
+
+.wrapper .wrapper-content .content-wrapper  .content
+{
+	font-size:18px;
+	text-align:center;
+	line-height:20px;
+	font-weight:300;
+}
+
+
+.wrapper .wrapper-content .footer
+{
+	margin-top:50px;
+	text-align:center;
+	color:#000000;
+	font-size:13px;
+}
+
+.wrapper .wrapper-content .footer a
+{
+	color:#000000;
+	text-decoration:none;
+}
+
+.toLeft
+{
+	float:left;
+}
+
+.toRight
+{
+	float:right;
+	text-align:right;
+}
+
+.clear
+{
+	clear:both;
+}
+
+

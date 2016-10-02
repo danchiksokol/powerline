@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <!-- 
+         'Temporarily Closed' Mini-Theme running on EZP Maintenance Mode Plugin
+         snapcreek.com
+    -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{{title}}</title>
+
+        <link href="./css/style.css" media="all" rel="stylesheet" type="text/css" />
+        
+        <style type="text/css">
+            {{css}}
+        </style>
+    </head>
+
+    <body>
+
+        <div class="header-text">
+            <h1>
+                {{header}} 
+            </h1>
+        </div>
+
+        <div class="content">
+
+
+            <div class="logo">
+                <a href="#"><img id="logo-img" src="{{logo_url}}"  /></a>
+            </div>
+
+            <div class="top">
+                {{headline}}
+            </div>
+
+            <div class="bottom">
+                {{message}}
+            </div>
+
+            <div class="push"></div>
+
+        </div>
+
+        <script type="text/javascript">
+         
+            var image = document.getElementById("logo-img");
+         
+            function ezp_hideImage() {
+                image.style.display = "none";
+            }                                                                
+                
+            if(image.getAttribute('src') == '') {     
+                ezp_hideImage();
+            }
+                
+            image.addEventListener('error', ezp_hideImage, true);
+            
+        </script>
+
+    </body>
+</html>

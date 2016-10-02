@@ -1,0 +1,521 @@
+0000.000 (0) Opened log file at time: Thu, 15 Sep 2016 10:09:37 +0000 on http://plg.bragin.ru
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.21.22 WP: 4.6.1 PHP: 7.0.10 (apache2handler, Linux vps3863.vps.host.ru 2.6.32-042stab116.2 #1 SMP Fri Jun 24 15:33:57 MSK 2016 i686) MySQL: 5.5.47 WPLANG: ru_RU Server: Apache/2.2.15 (CentOS) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 55.9M | 30M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 982.3 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.013 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.018 (0) Set semaphore last lock (fd) time to 2016-09-15 10:09:37
+0000.020 (0) Semaphore lock (fd) complete
+0000.025 (0) Backup run: resumption=0, nonce=83f8ce838653, begun at=1473934177 (0s ago), job type=backup, label=Автоматическое резер�
+0000.026 (0) Scheduling a resumption (1) after 600 seconds (1473934777) in case this run gets aborted
+0000.048 (0) OpenVZ; reported memory: 1024 MB
+0000.051 (0) Checking if we have a zip executable available
+0000.053 (0) Testing: /usr/bin/zip
+0000.093 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.095 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.097 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.098 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.099 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.118 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.120 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.130 (0) Working binary zip found: /usr/bin/zip
+0000.134 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.135 (0) Creation of backups of directories: beginning
+0000.138 (0) Beginning creation of dump of plugins (split every: 500 MB)
+0000.504 (0) Total entities for the zip file: 1290 directories, 6462 files (0 skipped as non-modified), 98.5 MB
+0000.510 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.520 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.525 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.533 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.538 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.539 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.5 MB, 6462 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.089 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: size is now: 1.90 MB
+0001.096 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 600 files added (on-disk size: 1929.4 KB)
+0001.101 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 700 files added (on-disk size: 1929.4 KB)
+0001.105 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 800 files added (on-disk size: 1929.4 KB)
+0001.109 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 900 files added (on-disk size: 1929.4 KB)
+0001.113 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 1000 files added (on-disk size: 1929.4 KB)
+0001.115 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.6 MB, 6462 files batched, 501 (1002) added so far); re-opening (prior size: 1929.4 KB)
+0001.537 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: size is now: 5.40 MB
+0001.572 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 1100 files added (on-disk size: 5482.5 KB)
+0001.577 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 1200 files added (on-disk size: 5482.5 KB)
+0001.581 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 1300 files added (on-disk size: 5482.5 KB)
+0001.585 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 1400 files added (on-disk size: 5482.5 KB)
+0001.589 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 1500 files added (on-disk size: 5482.5 KB)
+0001.590 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.7 MB, 6462 files batched, 501 (1503) added so far); re-opening (prior size: 5482.5 KB)
+0001.989 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: size is now: 9.10 MB
+0001.998 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 1600 files added (on-disk size: 9278.5 KB)
+0002.002 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 1700 files added (on-disk size: 9278.5 KB)
+0002.007 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 1800 files added (on-disk size: 9278.5 KB)
+0002.011 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 1900 files added (on-disk size: 9278.5 KB)
+0002.015 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 2000 files added (on-disk size: 9278.5 KB)
+0002.017 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 MB, 6462 files batched, 501 (2004) added so far); re-opening (prior size: 9278.5 KB)
+0002.539 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: size is now: 12.30 MB
+0002.546 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 2100 files added (on-disk size: 12581.4 KB)
+0002.550 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 2200 files added (on-disk size: 12581.4 KB)
+0002.554 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 2300 files added (on-disk size: 12581.4 KB)
+0002.559 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 2400 files added (on-disk size: 12581.4 KB)
+0002.563 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 2500 files added (on-disk size: 12581.4 KB)
+0002.564 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (20.8 MB, 6462 files batched, 501 (2505) added so far); re-opening (prior size: 12581.4 KB)
+0004.157 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: size is now: 21.90 MB
+0004.169 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 2600 files added (on-disk size: 22445.7 KB)
+0004.173 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 2700 files added (on-disk size: 22445.7 KB)
+0004.178 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 2800 files added (on-disk size: 22445.7 KB)
+0004.182 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 2900 files added (on-disk size: 22445.7 KB)
+0004.186 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 3000 files added (on-disk size: 22445.7 KB)
+0004.188 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 MB, 6462 files batched, 501 (3006) added so far); re-opening (prior size: 22445.7 KB)
+0005.513 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: size is now: 26.40 MB
+0005.520 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 3100 files added (on-disk size: 27082.5 KB)
+0005.525 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 3200 files added (on-disk size: 27082.5 KB)
+0005.534 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 3300 files added (on-disk size: 27082.5 KB)
+0005.548 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 3400 files added (on-disk size: 27082.5 KB)
+0005.554 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 3500 files added (on-disk size: 27082.5 KB)
+0005.557 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.6 MB, 6462 files batched, 501 (3507) added so far); re-opening (prior size: 27082.5 KB)
+0007.530 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 3600 files added (on-disk size: 30822.5 KB)
+0007.554 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 3700 files added (on-disk size: 30822.5 KB)
+0007.558 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 3800 files added (on-disk size: 30822.5 KB)
+0007.580 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 3900 files added (on-disk size: 30822.5 KB)
+0007.584 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 4000 files added (on-disk size: 30822.5 KB)
+0007.601 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 6462 files batched, 501 (4008) added so far); re-opening (prior size: 30822.5 KB)
+0009.619 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 4100 files added (on-disk size: 33234 KB)
+0009.634 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 4200 files added (on-disk size: 33234 KB)
+0009.652 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 4300 files added (on-disk size: 33234 KB)
+0009.659 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 4400 files added (on-disk size: 33234 KB)
+0009.667 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 4500 files added (on-disk size: 33234 KB)
+0009.680 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 MB, 6462 files batched, 501 (4509) added so far); re-opening (prior size: 33234 KB)
+0011.364 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 4600 files added (on-disk size: 35322.2 KB)
+0011.382 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 4700 files added (on-disk size: 35322.2 KB)
+0011.393 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 4800 files added (on-disk size: 35322.2 KB)
+0011.414 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 4900 files added (on-disk size: 35322.2 KB)
+0011.432 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 5000 files added (on-disk size: 35322.2 KB)
+0011.446 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 MB, 6462 files batched, 501 (5010) added so far); re-opening (prior size: 35322.2 KB)
+0012.597 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 5100 files added (on-disk size: 36052.2 KB)
+0012.630 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 5200 files added (on-disk size: 36052.2 KB)
+0012.638 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 5300 files added (on-disk size: 36052.2 KB)
+0012.644 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 5400 files added (on-disk size: 36052.2 KB)
+0012.661 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 5500 files added (on-disk size: 36052.2 KB)
+0012.672 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.6 MB, 6462 files batched, 501 (5511) added so far); re-opening (prior size: 36052.2 KB)
+0014.893 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 5600 files added (on-disk size: 38475.8 KB)
+0014.903 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 5700 files added (on-disk size: 38475.8 KB)
+0014.921 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 5800 files added (on-disk size: 38475.8 KB)
+0014.937 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 5900 files added (on-disk size: 38475.8 KB)
+0014.965 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 6000 files added (on-disk size: 38475.8 KB)
+0014.977 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 6462 files batched, 501 (6012) added so far); re-opening (prior size: 38475.8 KB)
+0016.644 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 6100 files added (on-disk size: 39889.8 KB)
+0016.662 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 6200 files added (on-disk size: 39889.8 KB)
+0016.667 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 6300 files added (on-disk size: 39889.8 KB)
+0016.696 (0) Zip: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip.tmp: 6400 files added (on-disk size: 39889.8 KB)
+0018.752 (0) Created plugins zip (0) - 41173.5 KB in 18.6 s (2212.2 KB/s) (SHA1 checksum: 522f7a87bb376833b1584666a1a2394dfb39143f)
+0018.760 (0) No backup of themes: excluded by user's options
+0018.767 (0) No backup of uploads: excluded by user's options
+0018.773 (0) No backup of wpcore: excluded by user's options
+0018.776 (0) No backup of others: excluded by user's options
+0018.777 (0) No backup of more: excluded by user's options
+0018.779 (0) Saving backup status to database (elements: 2)
+0018.783 (0) Beginning creation of database dump (WordPress DB)
+0018.785 (0) Testing: /usr/bin/mysqldump
+0018.900 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0018.910 (0) Table wp_plg_braginruoptions: Total expected rows (approximate): 3905
+0019.307 (0) Table wp_plg_braginruoptions: Total rows added: 2023 in 0.40 seconds
+0019.318 (0) Table wp_plg_braginruoptions: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruoptions.table.gz - 312.8 KB)
+0019.322 (0) Table wp_plg_braginruusers: Total expected rows (approximate): 4
+0019.328 (0) Table wp_plg_braginruusers: Total rows added: 4 in 0.00 seconds
+0019.330 (0) Table wp_plg_braginruusers: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruusers.table.gz - 0.8 KB)
+0019.336 (0) Table wp_plg_braginruusermeta: Total expected rows (approximate): 189
+0019.345 (0) Table wp_plg_braginruusermeta: Total rows added: 188 in 0.00 seconds
+0019.347 (0) Table wp_plg_braginruusermeta: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruusermeta.table.gz - 4 KB)
+0019.351 (0) Table wp_plg_braginrucommentmeta: Total expected rows (approximate): 0
+0019.354 (0) Table wp_plg_braginrucommentmeta: Total rows added: 0 in 0.00 seconds
+0019.359 (0) Table wp_plg_braginrucommentmeta: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrucommentmeta.table.gz - 0.4 KB)
+0019.362 (0) Table wp_plg_braginrucomments: Total expected rows (approximate): 0
+0019.368 (0) Table wp_plg_braginrucomments: Total rows added: 0 in 0.00 seconds
+0019.370 (0) Table wp_plg_braginrucomments: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrucomments.table.gz - 0.5 KB)
+0019.375 (0) Table wp_plg_braginrulinks: Total expected rows (approximate): 0
+0019.381 (0) Table wp_plg_braginrulinks: Total rows added: 0 in 0.00 seconds
+0019.383 (0) Table wp_plg_braginrulinks: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrulinks.table.gz - 0.5 KB)
+0019.401 (0) Table wp_plg_braginrupostmeta: Total expected rows (approximate): 23169
+0020.741 (0) Table wp_plg_braginrupostmeta: binary mysqldump finished (writes: 37) in 1.34 seconds
+0020.764 (0) Table wp_plg_braginrupostmeta: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupostmeta.table.gz - 488.7 KB)
+0020.777 (0) Table wp_plg_braginruposts: Total expected rows (approximate): 1642
+0021.721 (0) Table wp_plg_braginruposts: Total rows added: 2866 in 0.94 seconds
+0021.728 (0) Table wp_plg_braginruposts: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruposts.table.gz - 368.7 KB)
+0021.733 (0) Table wp_plg_braginruterm_relationships: Total expected rows (approximate): 6544
+0021.871 (0) Table wp_plg_braginruterm_relationships: Total rows added: 9831 in 0.14 seconds
+0021.873 (0) Table wp_plg_braginruterm_relationships: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruterm_relationships.table.gz - 27.1 KB)
+0021.880 (0) Table wp_plg_braginruterm_taxonomy: Total expected rows (approximate): 2848
+0021.953 (0) Table wp_plg_braginruterm_taxonomy: Total rows added: 2742 in 0.07 seconds
+0021.955 (0) Table wp_plg_braginruterm_taxonomy: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruterm_taxonomy.table.gz - 16.2 KB)
+0021.963 (0) Table wp_plg_braginrutermmeta: Total expected rows (approximate): 3026
+0022.022 (0) Table wp_plg_braginrutermmeta: Total rows added: 2997 in 0.06 seconds
+0022.025 (0) Table wp_plg_braginrutermmeta: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrutermmeta.table.gz - 18.3 KB)
+0022.038 (0) Table wp_plg_braginruterms: Total expected rows (approximate): 3738
+0022.121 (0) Table wp_plg_braginruterms: Total rows added: 2742 in 0.08 seconds
+0022.124 (0) Table wp_plg_braginruterms: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruterms.table.gz - 60.7 KB)
+0022.129 (0) Table wp_plg_braginruwoocommerce_order_itemmeta: Total expected rows (approximate): 0
+0022.139 (0) Table wp_plg_braginruwoocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0022.140 (0) Table wp_plg_braginruwoocommerce_order_itemmeta: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_order_itemmeta.table.gz - 0.4 KB)
+0022.143 (0) Table wp_plg_braginruwoocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0022.145 (0) Table wp_plg_braginruwoocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0022.147 (0) Table wp_plg_braginruwoocommerce_payment_tokenmeta: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0022.149 (0) Table wp_plg_braginruUPCP_Catalogue_Items: Total expected rows (approximate): 0
+0022.152 (0) Table wp_plg_braginruUPCP_Catalogue_Items: Total rows added: 0 in 0.00 seconds
+0022.153 (0) Table wp_plg_braginruUPCP_Catalogue_Items: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Catalogue_Items.table.gz - 0.3 KB)
+0022.156 (0) Table wp_plg_braginruUPCP_Catalogues: Total expected rows (approximate): 1
+0022.158 (0) Table wp_plg_braginruUPCP_Catalogues: Total rows added: 1 in 0.00 seconds
+0022.160 (0) Table wp_plg_braginruUPCP_Catalogues: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Catalogues.table.gz - 0.4 KB)
+0022.163 (0) Table wp_plg_braginruUPCP_Categories: Total expected rows (approximate): 1
+0022.165 (0) Table wp_plg_braginruUPCP_Categories: Total rows added: 1 in 0.00 seconds
+0022.167 (0) Table wp_plg_braginruUPCP_Categories: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Categories.table.gz - 0.4 KB)
+0022.169 (0) Table wp_plg_braginruUPCP_Custom_Fields: Total expected rows (approximate): 0
+0022.171 (0) Table wp_plg_braginruUPCP_Custom_Fields: Total rows added: 0 in 0.00 seconds
+0022.173 (0) Table wp_plg_braginruUPCP_Custom_Fields: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Custom_Fields.table.gz - 0.4 KB)
+0022.176 (0) Table wp_plg_braginruUPCP_Fields_Meta: Total expected rows (approximate): 0
+0022.178 (0) Table wp_plg_braginruUPCP_Fields_Meta: Total rows added: 0 in 0.00 seconds
+0022.179 (0) Table wp_plg_braginruUPCP_Fields_Meta: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Fields_Meta.table.gz - 0.3 KB)
+0022.182 (0) Table wp_plg_braginruUPCP_Item_Images: Total expected rows (approximate): 0
+0022.184 (0) Table wp_plg_braginruUPCP_Item_Images: Total rows added: 0 in 0.00 seconds
+0022.186 (0) Table wp_plg_braginruUPCP_Item_Images: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Item_Images.table.gz - 0.3 KB)
+0022.188 (0) Table wp_plg_braginruUPCP_Items: Total expected rows (approximate): 1
+0022.191 (0) Table wp_plg_braginruUPCP_Items: Total rows added: 1 in 0.00 seconds
+0022.193 (0) Table wp_plg_braginruUPCP_Items: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Items.table.gz - 0.6 KB)
+0022.195 (0) Table wp_plg_braginruUPCP_SubCategories: Total expected rows (approximate): 0
+0022.198 (0) Table wp_plg_braginruUPCP_SubCategories: Total rows added: 0 in 0.00 seconds
+0022.199 (0) Table wp_plg_braginruUPCP_SubCategories: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_SubCategories.table.gz - 0.4 KB)
+0022.202 (0) Table wp_plg_braginruUPCP_Tag_Groups: Total expected rows (approximate): 0
+0022.204 (0) Table wp_plg_braginruUPCP_Tag_Groups: Total rows added: 0 in 0.00 seconds
+0022.206 (0) Table wp_plg_braginruUPCP_Tag_Groups: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Tag_Groups.table.gz - 0.3 KB)
+0022.208 (0) Table wp_plg_braginruUPCP_Tagged_Items: Total expected rows (approximate): 0
+0022.211 (0) Table wp_plg_braginruUPCP_Tagged_Items: Total rows added: 0 in 0.00 seconds
+0022.212 (0) Table wp_plg_braginruUPCP_Tagged_Items: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Tagged_Items.table.gz - 0.3 KB)
+0022.215 (0) Table wp_plg_braginruUPCP_Tags: Total expected rows (approximate): 0
+0022.219 (0) Table wp_plg_braginruUPCP_Tags: Total rows added: 0 in 0.00 seconds
+0022.221 (0) Table wp_plg_braginruUPCP_Tags: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Tags.table.gz - 0.4 KB)
+0022.224 (0) Table wp_plg_braginruUPCP_Videos: Total expected rows (approximate): 0
+0022.226 (0) Table wp_plg_braginruUPCP_Videos: Total rows added: 0 in 0.00 seconds
+0022.228 (0) Table wp_plg_braginruUPCP_Videos: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Videos.table.gz - 0.3 KB)
+0022.230 (0) Table wp_plg_braginruaps_social_icons: Total expected rows (approximate): 1
+0022.234 (0) Table wp_plg_braginruaps_social_icons: Total rows added: 1 in 0.00 seconds
+0022.235 (0) Table wp_plg_braginruaps_social_icons: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruaps_social_icons.table.gz - 1.1 KB)
+0022.239 (0) Table wp_plg_braginruaryo_activity_log: Total expected rows (approximate): 12611
+0022.541 (0) Table wp_plg_braginruaryo_activity_log: binary mysqldump finished (writes: 37) in 0.30 seconds
+0022.547 (0) Table wp_plg_braginruaryo_activity_log: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruaryo_activity_log.table.gz - 206.5 KB)
+0022.551 (0) Table wp_plg_braginruberocket_termmeta: Total expected rows (approximate): 0
+0022.557 (0) Table wp_plg_braginruberocket_termmeta: Total rows added: 0 in 0.00 seconds
+0022.558 (0) Table wp_plg_braginruberocket_termmeta: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruberocket_termmeta.table.gz - 0.3 KB)
+0022.568 (0) Table wp_plg_braginruewwwio_images: Total expected rows (approximate): 3983
+0022.738 (0) Table wp_plg_braginruewwwio_images: Total rows added: 3885 in 0.17 seconds
+0022.741 (0) Table wp_plg_braginruewwwio_images: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruewwwio_images.table.gz - 69.9 KB)
+0022.743 (0) Table wp_plg_braginrufilemeta: Total expected rows (approximate): 0
+0022.750 (0) Table wp_plg_braginrufilemeta: Total rows added: 0 in 0.01 seconds
+0022.754 (0) Table wp_plg_braginrufilemeta: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrufilemeta.table.gz - 0.3 KB)
+0022.757 (0) Table wp_plg_braginrupmlca_links: Total expected rows (approximate): 0
+0022.759 (0) Table wp_plg_braginrupmlca_links: Total rows added: 0 in 0.00 seconds
+0022.761 (0) Table wp_plg_braginrupmlca_links: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmlca_links.table.gz - 0.3 KB)
+0022.763 (0) Table wp_plg_braginrupmxe_exports: Total expected rows (approximate): 1
+0022.767 (0) Table wp_plg_braginrupmxe_exports: Total rows added: 1 in 0.00 seconds
+0022.769 (0) Table wp_plg_braginrupmxe_exports: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxe_exports.table.gz - 4 KB)
+0022.771 (0) Table wp_plg_braginrupmxe_posts: Total expected rows (approximate): 0
+0022.773 (0) Table wp_plg_braginrupmxe_posts: Total rows added: 0 in 0.00 seconds
+0022.775 (0) Table wp_plg_braginrupmxe_posts: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxe_posts.table.gz - 0.3 KB)
+0022.777 (0) Table wp_plg_braginrupmxe_templates: Total expected rows (approximate): 0
+0022.780 (0) Table wp_plg_braginrupmxe_templates: Total rows added: 0 in 0.00 seconds
+0022.781 (0) Table wp_plg_braginrupmxe_templates: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxe_templates.table.gz - 0.3 KB)
+0022.783 (0) Table wp_plg_braginrupmxi_files: Total expected rows (approximate): 5
+0022.786 (0) Table wp_plg_braginrupmxi_files: Total rows added: 5 in 0.00 seconds
+0022.789 (0) Table wp_plg_braginrupmxi_files: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxi_files.table.gz - 0.7 KB)
+0022.791 (0) Table wp_plg_braginrupmxi_history: Total expected rows (approximate): 5
+0022.793 (0) Table wp_plg_braginrupmxi_history: Total rows added: 5 in 0.00 seconds
+0022.795 (0) Table wp_plg_braginrupmxi_history: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxi_history.table.gz - 0.6 KB)
+0022.798 (0) Table wp_plg_braginrupmxi_imports: Total expected rows (approximate): 1
+0022.805 (0) Table wp_plg_braginrupmxi_imports: Total rows added: 2 in 0.01 seconds
+0022.807 (0) Table wp_plg_braginrupmxi_imports: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxi_imports.table.gz - 6.8 KB)
+0022.810 (0) Table wp_plg_braginrupmxi_posts: Total expected rows (approximate): 1460
+0022.849 (0) Table wp_plg_braginrupmxi_posts: Total rows added: 1293 in 0.04 seconds
+0022.862 (0) Table wp_plg_braginrupmxi_posts: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxi_posts.table.gz - 27.8 KB)
+0022.864 (0) Table wp_plg_braginrupmxi_templates: Total expected rows (approximate): 0
+0022.867 (0) Table wp_plg_braginrupmxi_templates: Total rows added: 0 in 0.00 seconds
+0022.868 (0) Table wp_plg_braginrupmxi_templates: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxi_templates.table.gz - 0.4 KB)
+0022.871 (0) Table wp_plg_braginrusay_what_strings: Total expected rows (approximate): 0
+0022.873 (0) Table wp_plg_braginrusay_what_strings: Total rows added: 0 in 0.00 seconds
+0022.874 (0) Table wp_plg_braginrusay_what_strings: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrusay_what_strings.table.gz - 0.3 KB)
+0022.877 (0) Table wp_plg_braginrustatistics_exclusions: Total expected rows (approximate): 0
+0022.879 (0) Table wp_plg_braginrustatistics_exclusions: Total rows added: 0 in 0.00 seconds
+0022.881 (0) Table wp_plg_braginrustatistics_exclusions: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrustatistics_exclusions.table.gz - 0.3 KB)
+0022.883 (0) Table wp_plg_braginrustatistics_historical: Total expected rows (approximate): 0
+0022.886 (0) Table wp_plg_braginrustatistics_historical: Total rows added: 0 in 0.00 seconds
+0022.887 (0) Table wp_plg_braginrustatistics_historical: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrustatistics_historical.table.gz - 0.3 KB)
+0022.890 (0) Table wp_plg_braginrustatistics_pages: Total expected rows (approximate): 0
+0022.892 (0) Table wp_plg_braginrustatistics_pages: Total rows added: 0 in 0.00 seconds
+0022.893 (0) Table wp_plg_braginrustatistics_pages: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrustatistics_pages.table.gz - 0.3 KB)
+0022.896 (0) Table wp_plg_braginrustatistics_search: Total expected rows (approximate): 0
+0022.898 (0) Table wp_plg_braginrustatistics_search: Total rows added: 0 in 0.00 seconds
+0022.900 (0) Table wp_plg_braginrustatistics_search: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrustatistics_search.table.gz - 0.4 KB)
+0022.902 (0) Table wp_plg_braginrustatistics_useronline: Total expected rows (approximate): 0
+0022.905 (0) Table wp_plg_braginrustatistics_useronline: Total rows added: 0 in 0.00 seconds
+0022.906 (0) Table wp_plg_braginrustatistics_useronline: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrustatistics_useronline.table.gz - 0.4 KB)
+0022.911 (0) Table wp_plg_braginrustatistics_visit: Total expected rows (approximate): 2
+0022.913 (0) Table wp_plg_braginrustatistics_visit: Total rows added: 2 in 0.00 seconds
+0022.915 (0) Table wp_plg_braginrustatistics_visit: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrustatistics_visit.table.gz - 0.4 KB)
+0022.918 (0) Table wp_plg_braginrustatistics_visitor: Total expected rows (approximate): 1
+0022.921 (0) Table wp_plg_braginrustatistics_visitor: Total rows added: 1 in 0.00 seconds
+0022.922 (0) Table wp_plg_braginrustatistics_visitor: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrustatistics_visitor.table.gz - 0.6 KB)
+0022.925 (0) Table wp_plg_braginruwfBadLeechers: Total expected rows (approximate): 0
+0022.927 (0) Table wp_plg_braginruwfBadLeechers: Total rows added: 0 in 0.00 seconds
+0022.928 (0) Table wp_plg_braginruwfBadLeechers: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfBadLeechers.table.gz - 0.3 KB)
+0022.931 (0) Table wp_plg_braginruwfBlockedIPLog: Total expected rows (approximate): 0
+0022.933 (0) Table wp_plg_braginruwfBlockedIPLog: Total rows added: 0 in 0.00 seconds
+0022.935 (0) Table wp_plg_braginruwfBlockedIPLog: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfBlockedIPLog.table.gz - 0.3 KB)
+0022.938 (0) Table wp_plg_braginruwfBlocks: Total expected rows (approximate): 0
+0022.940 (0) Table wp_plg_braginruwfBlocks: Total rows added: 0 in 0.00 seconds
+0022.941 (0) Table wp_plg_braginruwfBlocks: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfBlocks.table.gz - 0.4 KB)
+0022.943 (0) Table wp_plg_braginruwfBlocksAdv: Total expected rows (approximate): 0
+0022.945 (0) Table wp_plg_braginruwfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0022.947 (0) Table wp_plg_braginruwfBlocksAdv: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfBlocksAdv.table.gz - 0.3 KB)
+0022.949 (0) Table wp_plg_braginruwfConfig: Total expected rows (approximate): 100
+0022.952 (0) Table wp_plg_braginruwfConfig: Total rows added: 100 in 0.00 seconds
+0022.957 (0) Table wp_plg_braginruwfConfig: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfConfig.table.gz - 1.6 KB)
+0022.960 (0) Table wp_plg_braginruwfCrawlers: Total expected rows (approximate): 0
+0022.962 (0) Table wp_plg_braginruwfCrawlers: Total rows added: 0 in 0.00 seconds
+0022.964 (0) Table wp_plg_braginruwfCrawlers: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfCrawlers.table.gz - 0.3 KB)
+0022.967 (0) Table wp_plg_braginruwfFileMods: Total expected rows (approximate): 0
+0022.969 (0) Table wp_plg_braginruwfFileMods: Total rows added: 0 in 0.00 seconds
+0022.970 (0) Table wp_plg_braginruwfFileMods: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfFileMods.table.gz - 0.3 KB)
+0022.974 (0) Table wp_plg_braginruwfHits: Total expected rows (approximate): 0
+0022.977 (0) Table wp_plg_braginruwfHits: Total rows added: 0 in 0.00 seconds
+0022.978 (0) Table wp_plg_braginruwfHits: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfHits.table.gz - 0.4 KB)
+0022.981 (0) Table wp_plg_braginruwfHoover: Total expected rows (approximate): 0
+0022.986 (0) Table wp_plg_braginruwfHoover: Total rows added: 0 in 0.00 seconds
+0022.988 (0) Table wp_plg_braginruwfHoover: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfHoover.table.gz - 0.3 KB)
+0022.990 (0) Table wp_plg_braginruwfIssues: Total expected rows (approximate): 0
+0022.995 (0) Table wp_plg_braginruwfIssues: Total rows added: 0 in 0.00 seconds
+0022.997 (0) Table wp_plg_braginruwfIssues: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfIssues.table.gz - 0.4 KB)
+0022.999 (0) Table wp_plg_braginruwfLeechers: Total expected rows (approximate): 0
+0023.001 (0) Table wp_plg_braginruwfLeechers: Total rows added: 0 in 0.00 seconds
+0023.003 (0) Table wp_plg_braginruwfLeechers: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfLeechers.table.gz - 0.3 KB)
+0023.006 (0) Table wp_plg_braginruwfLockedOut: Total expected rows (approximate): 0
+0023.007 (0) Table wp_plg_braginruwfLockedOut: Total rows added: 0 in 0.00 seconds
+0023.009 (0) Table wp_plg_braginruwfLockedOut: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfLockedOut.table.gz - 0.3 KB)
+0023.014 (0) Table wp_plg_braginruwfLocs: Total expected rows (approximate): 0
+0023.016 (0) Table wp_plg_braginruwfLocs: Total rows added: 0 in 0.00 seconds
+0023.017 (0) Table wp_plg_braginruwfLocs: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfLocs.table.gz - 0.4 KB)
+0023.020 (0) Table wp_plg_braginruwfLogins: Total expected rows (approximate): 0
+0023.022 (0) Table wp_plg_braginruwfLogins: Total rows added: 0 in 0.00 seconds
+0023.024 (0) Table wp_plg_braginruwfLogins: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfLogins.table.gz - 0.4 KB)
+0023.027 (0) Table wp_plg_braginruwfNet404s: Total expected rows (approximate): 0
+0023.029 (0) Table wp_plg_braginruwfNet404s: Total rows added: 0 in 0.00 seconds
+0023.031 (0) Table wp_plg_braginruwfNet404s: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfNet404s.table.gz - 0.3 KB)
+0023.033 (0) Table wp_plg_braginruwfReverseCache: Total expected rows (approximate): 0
+0023.035 (0) Table wp_plg_braginruwfReverseCache: Total rows added: 0 in 0.00 seconds
+0023.037 (0) Table wp_plg_braginruwfReverseCache: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfReverseCache.table.gz - 0.3 KB)
+0023.040 (0) Table wp_plg_braginruwfScanners: Total expected rows (approximate): 0
+0023.042 (0) Table wp_plg_braginruwfScanners: Total rows added: 0 in 0.00 seconds
+0023.043 (0) Table wp_plg_braginruwfScanners: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfScanners.table.gz - 0.3 KB)
+0023.046 (0) Table wp_plg_braginruwfStatus: Total expected rows (approximate): 0
+0023.048 (0) Table wp_plg_braginruwfStatus: Total rows added: 0 in 0.00 seconds
+0023.050 (0) Table wp_plg_braginruwfStatus: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfStatus.table.gz - 0.3 KB)
+0023.053 (0) Table wp_plg_braginruwfThrottleLog: Total expected rows (approximate): 0
+0023.055 (0) Table wp_plg_braginruwfThrottleLog: Total rows added: 0 in 0.00 seconds
+0023.057 (0) Table wp_plg_braginruwfThrottleLog: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfThrottleLog.table.gz - 0.3 KB)
+0023.060 (0) Table wp_plg_braginruwfVulnScanners: Total expected rows (approximate): 0
+0023.062 (0) Table wp_plg_braginruwfVulnScanners: Total rows added: 0 in 0.00 seconds
+0023.063 (0) Table wp_plg_braginruwfVulnScanners: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfVulnScanners.table.gz - 0.3 KB)
+0023.067 (0) Table wp_plg_braginruwoocommerce_api_keys: Total expected rows (approximate): 0
+0023.069 (0) Table wp_plg_braginruwoocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0023.071 (0) Table wp_plg_braginruwoocommerce_api_keys: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_api_keys.table.gz - 0.4 KB)
+0023.073 (0) Table wp_plg_braginruwoocommerce_attribute_taxonomies: Total expected rows (approximate): 3
+0023.076 (0) Table wp_plg_braginruwoocommerce_attribute_taxonomies: Total rows added: 3 in 0.00 seconds
+0023.078 (0) Table wp_plg_braginruwoocommerce_attribute_taxonomies: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_attribute_taxonomies.table.gz - 0.5 KB)
+0023.081 (0) Table wp_plg_braginruwoocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0023.083 (0) Table wp_plg_braginruwoocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0023.085 (0) Table wp_plg_braginruwoocommerce_downloadable_product_permissions: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0023.088 (0) Table wp_plg_braginruwoocommerce_order_items: Total expected rows (approximate): 0
+0023.091 (0) Table wp_plg_braginruwoocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0023.094 (0) Table wp_plg_braginruwoocommerce_order_items: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_order_items.table.gz - 0.4 KB)
+0023.102 (0) Table wp_plg_braginruwoocommerce_payment_tokens: Total expected rows (approximate): 0
+0023.105 (0) Table wp_plg_braginruwoocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0023.106 (0) Table wp_plg_braginruwoocommerce_payment_tokens: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_payment_tokens.table.gz - 0.4 KB)
+0023.110 (0) Table wp_plg_braginruwoocommerce_sessions: Total expected rows (approximate): 2
+0023.113 (0) Table wp_plg_braginruwoocommerce_sessions: Total rows added: 2 in 0.00 seconds
+0023.114 (0) Table wp_plg_braginruwoocommerce_sessions: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_sessions.table.gz - 0.6 KB)
+0023.117 (0) Table wp_plg_braginruwoocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0023.119 (0) Table wp_plg_braginruwoocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0023.121 (0) Table wp_plg_braginruwoocommerce_shipping_zone_locations: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0023.123 (0) Table wp_plg_braginruwoocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0023.125 (0) Table wp_plg_braginruwoocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0023.127 (0) Table wp_plg_braginruwoocommerce_shipping_zone_methods: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0023.132 (0) Table wp_plg_braginruwoocommerce_shipping_zones: Total expected rows (approximate): 0
+0023.134 (0) Table wp_plg_braginruwoocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0023.137 (0) Table wp_plg_braginruwoocommerce_shipping_zones: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_shipping_zones.table.gz - 0.3 KB)
+0023.139 (0) Table wp_plg_braginruwoocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0023.142 (0) Table wp_plg_braginruwoocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0023.146 (0) Table wp_plg_braginruwoocommerce_tax_rate_locations: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0023.149 (0) Table wp_plg_braginruwoocommerce_tax_rates: Total expected rows (approximate): 0
+0023.152 (0) Table wp_plg_braginruwoocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0023.153 (0) Table wp_plg_braginruwoocommerce_tax_rates: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_tax_rates.table.gz - 0.4 KB)
+0023.160 (0) Table wp_plg_braginruwpmcleaner: Total expected rows (approximate): 5
+0023.166 (0) Table wp_plg_braginruwpmcleaner: Total rows added: 5 in 0.00 seconds
+0023.167 (0) Table wp_plg_braginruwpmcleaner: finishing file (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwpmcleaner.table.gz - 0.5 KB)
+0023.170 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruoptions.table.gz (1/80): adding to final database dump
+0023.460 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruusers.table.gz (2/80): adding to final database dump
+0023.465 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruusermeta.table.gz (3/80): adding to final database dump
+0023.470 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrucommentmeta.table.gz (4/80): adding to final database dump
+0023.472 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrucomments.table.gz (5/80): adding to final database dump
+0023.474 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrulinks.table.gz (6/80): adding to final database dump
+0023.475 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupostmeta.table.gz (7/80): adding to final database dump
+0023.967 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruposts.table.gz (8/80): adding to final database dump
+0024.491 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruterm_relationships.table.gz (9/80): adding to final database dump
+0024.631 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruterm_taxonomy.table.gz (10/80): adding to final database dump
+0024.674 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrutermmeta.table.gz (11/80): adding to final database dump
+0024.708 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruterms.table.gz (12/80): adding to final database dump
+0024.790 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_order_itemmeta.table.gz (13/80): adding to final database dump
+0024.795 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_payment_tokenmeta.table.gz (14/80): adding to final database dump
+0024.797 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Catalogue_Items.table.gz (15/80): adding to final database dump
+0024.798 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Catalogues.table.gz (16/80): adding to final database dump
+0024.800 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Categories.table.gz (17/80): adding to final database dump
+0024.801 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Custom_Fields.table.gz (18/80): adding to final database dump
+0024.804 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Fields_Meta.table.gz (19/80): adding to final database dump
+0024.805 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Item_Images.table.gz (20/80): adding to final database dump
+0024.807 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Items.table.gz (21/80): adding to final database dump
+0024.809 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_SubCategories.table.gz (22/80): adding to final database dump
+0024.811 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Tag_Groups.table.gz (23/80): adding to final database dump
+0024.813 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Tagged_Items.table.gz (24/80): adding to final database dump
+0024.815 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Tags.table.gz (25/80): adding to final database dump
+0024.816 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruUPCP_Videos.table.gz (26/80): adding to final database dump
+0024.817 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruaps_social_icons.table.gz (27/80): adding to final database dump
+0024.819 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruaryo_activity_log.table.gz (28/80): adding to final database dump
+0025.039 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruberocket_termmeta.table.gz (29/80): adding to final database dump
+0025.053 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruewwwio_images.table.gz (30/80): adding to final database dump
+0025.168 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrufilemeta.table.gz (31/80): adding to final database dump
+0025.181 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmlca_links.table.gz (32/80): adding to final database dump
+0025.183 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxe_exports.table.gz (33/80): adding to final database dump
+0025.186 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxe_posts.table.gz (34/80): adding to final database dump
+0025.188 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxe_templates.table.gz (35/80): adding to final database dump
+0025.191 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxi_files.table.gz (36/80): adding to final database dump
+0025.199 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxi_history.table.gz (37/80): adding to final database dump
+0025.201 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxi_imports.table.gz (38/80): adding to final database dump
+0025.206 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxi_posts.table.gz (39/80): adding to final database dump
+0025.227 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrupmxi_templates.table.gz (40/80): adding to final database dump
+0025.231 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrusay_what_strings.table.gz (41/80): adding to final database dump
+0025.233 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrustatistics_exclusions.table.gz (42/80): adding to final database dump
+0025.238 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrustatistics_historical.table.gz (43/80): adding to final database dump
+0025.240 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrustatistics_pages.table.gz (44/80): adding to final database dump
+0025.242 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrustatistics_search.table.gz (45/80): adding to final database dump
+0025.245 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrustatistics_useronline.table.gz (46/80): adding to final database dump
+0025.246 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrustatistics_visit.table.gz (47/80): adding to final database dump
+0025.248 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginrustatistics_visitor.table.gz (48/80): adding to final database dump
+0025.249 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfBadLeechers.table.gz (49/80): adding to final database dump
+0025.251 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfBlockedIPLog.table.gz (50/80): adding to final database dump
+0025.252 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfBlocks.table.gz (51/80): adding to final database dump
+0025.253 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfBlocksAdv.table.gz (52/80): adding to final database dump
+0025.255 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfConfig.table.gz (53/80): adding to final database dump
+0025.257 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfCrawlers.table.gz (54/80): adding to final database dump
+0025.258 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfFileMods.table.gz (55/80): adding to final database dump
+0025.260 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfHits.table.gz (56/80): adding to final database dump
+0025.261 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfHoover.table.gz (57/80): adding to final database dump
+0025.262 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfIssues.table.gz (58/80): adding to final database dump
+0025.264 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfLeechers.table.gz (59/80): adding to final database dump
+0025.265 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfLockedOut.table.gz (60/80): adding to final database dump
+0025.266 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfLocs.table.gz (61/80): adding to final database dump
+0025.268 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfLogins.table.gz (62/80): adding to final database dump
+0025.269 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfNet404s.table.gz (63/80): adding to final database dump
+0025.271 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfReverseCache.table.gz (64/80): adding to final database dump
+0025.272 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfScanners.table.gz (65/80): adding to final database dump
+0025.273 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfStatus.table.gz (66/80): adding to final database dump
+0025.275 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfThrottleLog.table.gz (67/80): adding to final database dump
+0025.276 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwfVulnScanners.table.gz (68/80): adding to final database dump
+0025.277 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_api_keys.table.gz (69/80): adding to final database dump
+0025.279 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_attribute_taxonomies.table.gz (70/80): adding to final database dump
+0025.280 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_downloadable_product_permissions.table.gz (71/80): adding to final database dump
+0025.282 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_order_items.table.gz (72/80): adding to final database dump
+0025.283 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_payment_tokens.table.gz (73/80): adding to final database dump
+0025.285 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_sessions.table.gz (74/80): adding to final database dump
+0025.286 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_shipping_zone_locations.table.gz (75/80): adding to final database dump
+0025.287 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_shipping_zone_methods.table.gz (76/80): adding to final database dump
+0025.289 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_shipping_zones.table.gz (77/80): adding to final database dump
+0025.290 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_tax_rate_locations.table.gz (78/80): adding to final database dump
+0025.291 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwoocommerce_tax_rates.table.gz (79/80): adding to final database dump
+0025.293 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db-table-wp_plg_braginruwpmcleaner.table.gz (80/80): adding to final database dump
+0025.294 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db.gz: finished writing out complete database file (1600 KB)
+0025.322 (0) Total database tables backed up: 80 (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db.gz, size: 1663005, checksum (SHA1): 4f244b0f277e500aabc9cf990ccee1e309959f6c)
+0025.330 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0025.332 (0) backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db.gz: db: This file has not yet been successfully uploaded: will queue
+0025.333 (0) Saving backup history. Total backup size: 41.8 MB
+0025.335 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0025.339 (0) Cloud backup selection (1/1): dropbox (last)
+0025.340 (0) Beginning dispatch of backup to remote (dropbox)
+0025.341 (0) Dropbox: begin cloud upload
+0025.362 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0027.028 (0) Dropbox quota usage: normal=548991.4 MB, shared=48 MB, total=1061248 MB, available=512208.6 MB
+0027.037 (0) Dropbox: Attempt to upload: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip to: plg.bragin.ru/backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip
+0030.648 (0) Dropbox chunked upload: 2.5 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 1048576, 2048 KB)
+0038.238 (0) Dropbox chunked upload: 7.5 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 3145728, 2048 KB)
+0048.326 (0) Dropbox chunked upload: 12.4 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 5242880, 2048 KB)
+0048.330 (0) PHP event: code E_WARNING: Error while sending QUERY packet. PID=12988 (line 1868, wp-includes/wp-db.php)
+0059.691 (0) Dropbox chunked upload: 17.4 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 7340032, 2048 KB)
+0059.694 (0) PHP event: code E_WARNING: Error while sending QUERY packet. PID=12988 (line 1868, wp-includes/wp-db.php)
+0079.809 (0) Dropbox chunked upload: 22.4 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 9437184, 2048 KB)
+0079.809 (0) PHP event: code E_WARNING: Error while sending QUERY packet. PID=12988 (line 1868, wp-includes/wp-db.php)
+0091.226 (0) Dropbox chunked upload: 27.4 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 11534336, 2048 KB)
+0091.226 (0) PHP event: code E_WARNING: Error while sending QUERY packet. PID=12988 (line 1868, wp-includes/wp-db.php)
+0101.467 (0) Dropbox chunked upload: 32.3 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 13631488, 2048 KB)
+0101.468 (0) PHP event: code E_WARNING: Error while sending QUERY packet. PID=12988 (line 1868, wp-includes/wp-db.php)
+0107.436 (0) Dropbox chunked upload: 37.3 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 15728640, 3072 KB)
+0115.923 (0) Dropbox chunked upload: 44.8 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 18874368, 3072 KB)
+0128.299 (0) Dropbox chunked upload: 52.2 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 22020096, 3072 KB)
+0128.300 (0) PHP event: code E_WARNING: Error while sending QUERY packet. PID=12988 (line 1868, wp-includes/wp-db.php)
+0136.498 (0) Dropbox chunked upload: 59.7 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 25165824, 3072 KB)
+0143.553 (0) Dropbox chunked upload: 67.1 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 28311552, 3584 KB)
+0153.465 (0) Dropbox chunked upload: 75.9 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 31981568, 3072 KB)
+0168.420 (0) Dropbox chunked upload: 83.3 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 35127296, 3072 KB)
+0168.424 (0) PHP event: code E_WARNING: Error while sending QUERY packet. PID=12988 (line 1868, wp-includes/wp-db.php)
+0177.660 (0) Dropbox chunked upload: 90.8 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 38273024, 2560 KB)
+0183.913 (0) Dropbox chunked upload: 97 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 40894464, 3584 KB)
+0193.257 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAHj2gZgicsoQY6xw, 42161697, 3584 KB)
+0195.180 (0) Recording as successfully uploaded: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip (27fa74174f0fca55b540f8256c9cd80b)
+0195.239 (0) Deleting local file: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip: OK
+0195.271 (0) Dropbox: File upload success (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-plugins.zip): 41173 KB in 168s (244 KB/s)
+0196.515 (0) Dropbox quota usage: normal=549031.6 MB, shared=48 MB, total=1061248 MB, available=512168.4 MB
+0196.561 (0) Dropbox: Attempt to upload: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db.gz to: plg.bragin.ru/backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db.gz
+0207.097 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAHj2lqc0OtpiPC-A, 1663005, 3584 KB)
+0207.097 (0) PHP event: code E_WARNING: Error while sending QUERY packet. PID=12988 (line 1868, wp-includes/wp-db.php)
+0210.619 (0) Recording as successfully uploaded: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db.gz (3505704ebe072326bf54caa1d3a1c0ae)
+0210.634 (0) Deleting local file: backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db.gz: OK
+0210.637 (0) Dropbox: File upload success (backup_2016-09-15-1309_PowerLine_Group__83f8ce838653-db.gz): 1624 KB in 14s (115 KB/s)
+0210.640 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=7, retain_db=7
+0210.646 (0) Number of backup sets in history: 7; groups (db): 1
+0210.648 (0) Examining (for databases) backup set with group_id=0, nonce=99b75455606d, datestamp=1473920849 (Sep 15 2016 06:27:29)
+0210.650 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0210.651 (0) Examining (for databases) backup set with group_id=0, nonce=db6c6e394072, datestamp=1473826179 (Sep 14 2016 04:09:39)
+0210.654 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0210.655 (0) Examining (for databases) backup set with group_id=0, nonce=338725a0d6bd, datestamp=1473802741 (Sep 13 2016 21:39:01)
+0210.657 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0210.658 (0) Examining (for databases) backup set with group_id=0, nonce=c551ef5c70c8, datestamp=1473745961 (Sep 13 2016 05:52:41)
+0210.660 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0210.662 (0) Examining (for databases) backup set with group_id=0, nonce=4bd2f04f4c0a, datestamp=1473655096 (Sep 12 2016 04:38:16)
+0210.663 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0210.665 (0) Examining (for databases) backup set with group_id=0, nonce=81b2fd79aa1c, datestamp=1473602110 (Sep 11 2016 13:55:10)
+0210.666 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0210.668 (0) Examining (for databases) backup set with group_id=0, nonce=68ad8cdafe7c, datestamp=1473489047 (Sep 10 2016 06:30:47)
+0210.669 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0210.671 (0) Number of backup sets in history: 7; groups (files): 1
+0210.673 (0) Examining (for files) backup set with nonce=99b75455606d, datestamp=1473920849 (Sep 15 2016 06:27:29)
+0210.674 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0210.676 (0) Examining (for files) backup set with nonce=db6c6e394072, datestamp=1473826179 (Sep 14 2016 04:09:39)
+0210.678 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0210.679 (0) Examining (for files) backup set with nonce=338725a0d6bd, datestamp=1473802741 (Sep 13 2016 21:39:01)
+0210.681 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0210.682 (0) Examining (for files) backup set with nonce=c551ef5c70c8, datestamp=1473745961 (Sep 13 2016 05:52:41)
+0210.684 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0210.685 (0) Examining (for files) backup set with nonce=4bd2f04f4c0a, datestamp=1473655096 (Sep 12 2016 04:38:16)
+0210.686 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0210.687 (0) Examining (for files) backup set with nonce=81b2fd79aa1c, datestamp=1473602110 (Sep 11 2016 13:55:10)
+0210.688 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0210.689 (0) Examining (for files) backup set with nonce=68ad8cdafe7c, datestamp=1473489047 (Sep 10 2016 06:30:47)
+0210.691 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0210.692 (0) Retain: saving new backup history (sets now: 7) and finishing retain operation
+0210.700 (0) Resume backup (83f8ce838653, 0): finish run
+0210.706 (0) Decremented the semaphore (fd) by 1
+0210.708 (0) Semaphore (fd) unlocked
+0210.711 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0210.716 (0) The backup apparently succeeded and is now complete
+0210.734 (0) No report will be sent to this address, as it is configured to receive them only when there are errors or warnings: bradi...
+0210.735 (0) Резервное копирование успешно завершено

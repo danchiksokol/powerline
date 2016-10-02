@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EZP Maintenance Mode\n"
+"POT-Creation-Date: 2016-09-14 10:06-0700\n"
+"PO-Revision-Date: 2016-09-14 10:06-0700\n"
+"Last-Translator: Snap Creek Software <support@snapcreek.com>\n"
+"Language-Team: EZP WP <support@snapcreek.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/class-easy-pie-mm-utility.php:131
+msgid "problem reading manifest in "
+msgstr "Logo"
+
+#: classes/class-easy-pie-mm.php:81
+msgid "Maintenance Mode is On"
+msgstr "Maintenance Mode is On"
+
+#: classes/class-easy-pie-mm.php:129
+msgid "Problem reading template "
+msgstr "Problem reading template "
+
+#: classes/class-easy-pie-mm.php:258
+msgid "Tried to create "
+msgstr "Tried to create "
+
+#: classes/class-easy-pie-mm.php:296
+msgid "Enabled"
+msgstr "Enabled"
+
+#: classes/class-easy-pie-mm.php:299
+msgid "Visuals"
+msgstr "Visuals"
+
+#: classes/class-easy-pie-mm.php:300
+msgid "Mini-theme"
+msgstr "Mini-theme"
+
+#: classes/class-easy-pie-mm.php:303
+msgid "Fields"
+msgstr "Fields"
+
+#: classes/class-easy-pie-mm.php:304
+msgid "Title"
+msgstr "Title"
+
+#: classes/class-easy-pie-mm.php:305
+msgid "Header"
+msgstr "Header"
+
+#: classes/class-easy-pie-mm.php:306
+msgid "Headline"
+msgstr "Headline"
+
+#: classes/class-easy-pie-mm.php:307
+msgid "Message"
+msgstr "Message"
+
+#: classes/class-easy-pie-mm.php:308
+msgid "Logo"
+msgstr "Logo"
+
+#: classes/class-easy-pie-mm.php:338
+msgid "HTML tags are allowed. e.g. Add &lt;br/&gt; for break."
+msgstr "HTML tags are allowed. e.g. Add &lt;br/&gt; for break."
+
+#: classes/class-easy-pie-mm.php:409
+msgid "All fields are optional"
+msgstr "All fields are optional"
+
+#: classes/class-easy-pie-mm.php:444
+msgid "User Defined:"
+msgstr "User Defined:"
+
+#: classes/class-easy-pie-mm.php:447
+msgid "by"
+msgstr "by"
+
+#: pages/page-options.php:17
+msgid "If you have a caching plugin, be sure to clear the cache!"
+msgstr "If you have a caching plugin, be sure to clear the cache!"
+
+#: pages/page-options.php:30
+msgid "Advanced Settings"
+msgstr "Advanced Settings"
+
+#: pages/page-options.php:33
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: pages/page-options.php:36
+msgid "Page styling varies greatly. "
+msgstr "Page styling varies greatly. "
+
+#: pages/page-options.php:36
+msgid "Update custom CSS when switching mini-themes."
+msgstr "Update custom CSS when switching mini-themes."
+
+#: pages/page-options.php:50
+msgid "Plugin FAQ"
+msgstr "Plugin FAQ"
+
+#: pages/page-options.php:52
+msgid "Contact"
+msgstr ""
+
+#~ msgid "How to create a mini-theme for yourself or the community"
+#~ msgstr "How to create a mini-theme for yourself or the community"
+
+#~ msgid "Feature Request"
+#~ msgstr "Feature Request"
+
+#~ msgid "Report Bug"
+#~ msgstr "Report Bug"
+
+#~ msgid "Write Review"
+#~ msgstr "Write Review"
+
+#~ msgid "Contact Bob"
+#~ msgstr "Contact Bob"
+
+#~ msgid "Comment or question?"
+#~ msgstr "Comment or question?"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "or stop by"
+#~ msgstr "or stop by"
+
+#~ msgid "Create your own mini-theme. Even distribute it!"
+#~ msgstr "Create your own mini-theme. Even distribute it!"
+
+#~ msgid "Page"
+#~ msgstr "Page"

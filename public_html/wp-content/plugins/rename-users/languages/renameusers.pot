@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-07 20:43+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: renameusers.php:27
+msgid "Rename Usernames"
+msgstr ""
+
+#: renameusers.php:49
+msgid "User login name"
+msgstr ""
+
+#: renameusers.php:50
+msgid "New user login name and nice name"
+msgstr ""
+
+#: renameusers.php:61
+msgid "rename"
+msgstr ""
+
+#: renameusers.php:84
+msgid "No username was entered - please enter a valid username"
+msgstr ""
+
+#: renameusers.php:93
+msgid "Username does not exist"
+msgstr ""
+
+#: renameusers.php:99
+msgid "No new username was entered - please enter a valid username"
+msgstr ""
+
+#: renameusers.php:108
+msgid "New user name has to be different from actual user name"
+msgstr ""
+
+#: renameusers.php:112
+msgid "New user name is not allowed for wordpress"
+msgstr ""
+
+#: renameusers.php:116
+msgid "New user name is already used"
+msgstr ""
+
+#: renameusers.php:131
+#, php-format
+msgid "Your username at %3$s was renamed from %1$s to %2$s"
+msgstr ""
+
+#: renameusers.php:133
+#, php-format
+msgid ""
+"Hello,\r\n"
+"\r\n"
+"this is a system message from the website %3$s\r\n"
+"Your login and user name has been changed by an administrator.\r\n"
+"\r\n"
+"Username / Loginname (new): %1$s\r\n"
+"Log in with this user at %4$s\r\n"
+"\r\n"
+"You do not know your password any more? Request a new password at:\r\n"
+"%2$s\r\n"
+"\r\n"
+"See you soon at %3$s"
+msgstr ""
+
+#: renameusers.php:147
+msgid "Email could not be sent to"
+msgstr ""
+
+#: renameusers.php:150
+msgid "User Data could not be updated - aborted!"
+msgstr ""
+
+#: renameusers.php:155
+#, php-format
+msgid ""
+"User login (new: %1$s) and nice name are updated now. An email was sent to "
+"the account owner (%2$s)."
+msgstr ""

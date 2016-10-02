@@ -1,0 +1,565 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Contact Info v1.1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-23 12:42+0200\n"
+"PO-Revision-Date: 2013-10-29 13:26+0100\n"
+"Last-Translator: LehaMotovilov <lehaqs@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ simple-contact-info
+#: contact-info.php:59
+msgid "Settings"
+msgstr "Postavke"
+
+# @ simple-contact-info
+#: contact-info.php:84 contact-info.php:246
+msgid "Contact info"
+msgstr "Kontakt info"
+
+# @ simple-contact-info
+#: contact-info.php:85 inc/pages/contact-help.php:17
+msgid "Social icons"
+msgstr "Društvene ikone"
+
+# @ simple-contact-info
+#: contact-info.php:86
+msgid "Add social network"
+msgstr "Dodaj društvenu mrežu"
+
+# @ simple-contact-info
+#: contact-info.php:87
+msgid "Help"
+msgstr "Pomoć"
+
+# @ simple-contact-info
+#: contact-info.php:185
+msgid "Information successfully updated."
+msgstr "Informacija uspešno updateovana."
+
+# @ simple-contact-info
+#: contact-info.php:194
+msgid "Simple Contact Information"
+msgstr "Simple Contact Information"
+
+# @ simple-contact-info
+#: contact-info.php:196
+msgid "Social links"
+msgstr "Društveni linkovi"
+
+# @ simple-contact-info
+#: contact-info.php:198 contact-info.php:247 contact-info.php:269
+msgid "This information is used by"
+msgstr "Ovu informaciju oristi"
+
+# @ simple-contact-info
+#: contact-info.php:198 inc/pages/contact-help.php:18
+msgid "Simple Social Icons"
+msgstr "Simple Social Icons"
+
+# @ default
+#: contact-info.php:202
+msgid "Twitter"
+msgstr "Twitter"
+
+# @ simple-contact-info
+#: contact-info.php:205
+msgid "Link to Twitter page. (example \"https://twitter.com/lehamotovilov\")"
+msgstr ""
+"Link za Twitter stranicu. (primer \"https://twitter.com/lehamotovilov\")"
+
+# @ default
+#: contact-info.php:209
+msgid "Facebook"
+msgstr "Facebook"
+
+# @ simple-contact-info
+#: contact-info.php:212
+msgid ""
+"Link to Facebook page. (example \"http://www.facebook.com/LehaMotovilov\")"
+msgstr ""
+"Link za Facebook stranicu.(primer \"http://www.facebook.com/LehaMotovilov\")"
+
+# @ default
+#: contact-info.php:216
+msgid "YouTube"
+msgstr "YouTube"
+
+# @ simple-contact-info
+#: contact-info.php:219
+msgid ""
+"Link to YouTube page. (example \"http://www.youtube.com/user/AlekseyMotovilov"
+"\")"
+msgstr ""
+"Link za YouTube stranicu. (primer \"http://www.youtube.com/user/"
+"AlekseyMotovilov\")"
+
+# @ default
+#: contact-info.php:223
+msgid "Google+"
+msgstr "Google+"
+
+# @ default
+#: contact-info.php:229
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+# @ simple-contact-info
+#. translators: plugin header field 'Name'
+#: contact-info.php:0 contact-info.php:247
+msgid "Simple Contact Info"
+msgstr "Simple Contact Info"
+
+# @ simple-contact-info
+#: contact-info.php:251 inc/widgets/contact-info-widget.php:39
+msgid "Phone number"
+msgstr "Broj telefona"
+
+# @ default
+#: contact-info.php:259
+msgid "FAX"
+msgstr "FAX"
+
+# @ simple-contact-info
+#: contact-info.php:263
+msgid "Email address"
+msgstr "Email adresa"
+
+# @ simple-contact-info
+#: contact-info.php:268
+msgid "Address"
+msgstr "Adresa"
+
+# @ simple-contact-info
+#: contact-info.php:269
+msgid "Simple Google Map, Simple Address Info"
+msgstr "Simple Google Map, Simple Address Info"
+
+# @ simple-contact-info
+#: contact-info.php:273
+msgid "Country"
+msgstr "Zemlja "
+
+# @ simple-contact-info
+#: contact-info.php:277
+msgid "State"
+msgstr "Država"
+
+# @ simple-contact-info
+#: contact-info.php:281
+msgid "City"
+msgstr "Grad"
+
+# @ simple-contact-info
+#: contact-info.php:285
+msgid "Street"
+msgstr "Ulica"
+
+# @ simple-contact-info
+#: contact-info.php:289
+msgid "Zip code"
+msgstr "Poštanski broj"
+
+# @ simple-contact-info
+#: contact-info.php:296
+msgid "Update info"
+msgstr "Update info"
+
+# @ simple-contact-info
+#: inc/pages/contact-add-social.php:40
+msgid " was successfully added."
+msgstr "je uspešno dodato."
+
+# @ simple-contact-info
+#: inc/pages/contact-add-social.php:43
+msgid "You forgot write name."
+msgstr "Zaboravili ste da upišete ime."
+
+# @ simple-contact-info
+#: inc/pages/contact-add-social.php:53
+msgid "Simple Add New Social Network"
+msgstr "Simple Add New Social Network"
+
+# @ simple-contact-info
+#: inc/pages/contact-add-social.php:58
+msgid "Name"
+msgstr "Ime"
+
+# @ simple-contact-info
+#: inc/pages/contact-add-social.php:62
+msgid "Just add new Social Network."
+msgstr "Dodaj novu društvenu mrežu."
+
+# @ simple-contact-info
+#: inc/pages/contact-add-social.php:69
+msgid "Add New"
+msgstr "Dodaj novi"
+
+# @ simple-contact-info
+#: inc/pages/contact-add-social.php:73
+msgid "Remove Custom Social Network"
+msgstr "Ukloni Custom društvenu mrežu"
+
+# @ simple-contact-info
+#: inc/pages/contact-add-social.php:89
+msgid "Delete social network?"
+msgstr "Izbriši društvenu mrežu?"
+
+# @ simple-contact-info
+#: inc/pages/contact-add-social.php:90
+msgid ""
+"These social network will be permanently deleted and cannot be recovered. "
+"Are you sure?"
+msgstr ""
+"Ove društvene mreže će biti izbrisane trajno i ne mogu se povratiti. Da li "
+"ste sigurni?"
+
+# @ simple-contact-info
+#: inc/pages/contact-social.php:113
+msgid "Settings succesfully updated."
+msgstr "Postavke uspešno updateovane."
+
+# @ simple-contact-info
+#: inc/pages/contact-social.php:146
+msgid "Simple Setup Social Icons"
+msgstr "Simple Setup Social ikone"
+
+# @ simple-contact-info
+#: inc/pages/contact-social.php:148
+msgid "Select from the existing icons"
+msgstr "Izaberi iz postojećih ikona"
+
+# @ simple-contact-info
+#: inc/pages/contact-social.php:176
+msgid "Custom icons."
+msgstr "Custom ikone."
+
+# @ simple-contact-info
+#: inc/pages/contact-add-social.php:80 inc/pages/contact-social.php:194
+msgid "Delete"
+msgstr "Obrisati"
+
+# @ simple-contact-info
+#: inc/pages/contact-social.php:215
+msgid "Update"
+msgstr "Update"
+
+# @ simple-contact-info
+#: inc/pages/contact-social.php:220
+msgid "Upload your custom icon"
+msgstr "Upload vaše custom ikone"
+
+# @ simple-contact-info
+#: inc/pages/contact-social.php:224
+msgid "Select jpeg, jpg, png file."
+msgstr "Izaberite jpeg, jpg, png fajl."
+
+# @ simple-contact-info
+#: inc/pages/contact-social.php:228
+msgid "Select icons category."
+msgstr "Izaberi kategoriju ikone."
+
+# @ simple-contact-info
+#: inc/pages/contact-social.php:235
+msgid "Upload"
+msgstr "Upload"
+
+# @ simple-contact-info
+#: inc/pages/contact-social.php:240
+msgid "You must select an icon for each social network."
+msgstr "Morate izabrati ikonu za svaku društvenu mrežu."
+
+# @ simple-contact-info
+#: inc/pages/contact-social.php:242
+msgid "Delete icon?"
+msgstr "Izbrisati ikonu?"
+
+# @ simple-contact-info
+#: inc/pages/contact-social.php:243
+msgid ""
+"These icon will be permanently deleted and cannot be recovered. Are you sure?"
+msgstr ""
+"Ove ikone mogu će biti trajno izbrisane i neće moći da se povrate? Da li ste "
+"sigurni?"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:15
+msgid "Simple Help"
+msgstr "Jednostavna pomoć"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:18
+msgid "If you want to display social icons, use widget"
+msgstr "Ako želite da prikažete društvene ikone, koristite widget"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:19
+msgid ""
+"You can select icons from existing icon packs or you can upload your images."
+msgstr ""
+"Možete izabrati ikone sa postojećih paketa ikona ili uploadovati vaše slike."
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:20
+msgid "If you want to get social link, use"
+msgstr "Kao želite da dobijete društveni link, koristite"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:21
+msgid "To get url to selected social icon, use"
+msgstr "Da biste dobili url izabrane društvene ikone, koristite"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:22
+msgid "Or you can use shortcode"
+msgstr "Ili možete koristiti skrčćeni kod"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:22
+msgid "or if you want vertical"
+msgstr "ili ako želite vertikalno"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:25
+msgid "Google Map Widget"
+msgstr "Google Map Widget"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:26 inc/pages/contact-help.php:32
+msgid "Just use widget"
+msgstr "Samo koristite widget"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:27
+msgid ""
+"Widget display a Google Map based on the address that you entered in the "
+"settings."
+msgstr "Widget prikazuje Google Map  na osnovu adrese koju unosite u ostavke."
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:28
+msgid "You can setup width, height, zoom and type of map(dynamic, static)."
+msgstr "Možete namestiti širinu, visinu, zum i tip mape (dinamično, statično)"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:31
+msgid "Contact information"
+msgstr "Kontakt informacije"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:33
+msgid "If you want to get contact information, use"
+msgstr "Ako želite da dobijete kontakt informacije, koristite"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:33
+msgid "etc"
+msgstr "etc"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:34
+msgid "List of options:"
+msgstr "Lista opcija"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:47
+msgid "Support"
+msgstr "Podrška"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:48
+msgid "To get support or if you find bug - just write me"
+msgstr "Da biste dobili podršku ili ako naidjete na bug - pišite mi"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:49
+msgid "Or you can find me on Facebook:"
+msgstr "Ili me nadjite na  Facebook-u:"
+
+# @ simple-contact-info
+#: inc/pages/contact-help.php:50
+msgid "Or you can find me on Vkontakte:"
+msgstr "Ili me nadjite na Vkontakte:"
+
+# @ simple-contact-info
+#: inc/widgets/contact-social-widget.php:12
+msgid "Displays a social icons with links."
+msgstr "Prikazuje društvene ikone sa linkovima."
+
+# @ simple-contact-info
+#: inc/widgets/contact-address-widget.php:23
+#: inc/widgets/contact-googlemaps-widget.php:23
+#: inc/widgets/contact-info-widget.php:22
+#: inc/widgets/contact-social-widget.php:45
+msgid "Title"
+msgstr "Naslov"
+
+# @ simple-contact-info
+#: inc/widgets/contact-social-widget.php:54
+msgid "Orientation"
+msgstr "Orijentacija"
+
+# @ simple-contact-info
+#: inc/widgets/contact-social-widget.php:56
+msgid "Select orientation"
+msgstr "Izaberi orijentaciju"
+
+# @ simple-contact-info
+#: inc/widgets/contact-social-widget.php:63
+msgid ""
+"Specify icons to be displayed on the site. You can change the order of these "
+"icons."
+msgstr ""
+"Odredi ikonu koja će biti prikazana na sajtu. Možete promeniti red ovih "
+"ikona."
+
+# @ simple-contact-info
+#: inc/widgets/contact-address-widget.php:12
+msgid "Displays address information."
+msgstr "Prikaži adresu "
+
+# @ simple-contact-info
+#: inc/widgets/contact-info-widget.php:12
+msgid "Displays contact (phone, fax, email) information."
+msgstr "Prikaži kontakte (telefon, fax, email)"
+
+# @ simple-contact-info
+#: inc/widgets/contact-info-widget.php:31
+msgid "Show"
+msgstr "Prikaži"
+
+# @ simple-contact-info
+#: inc/widgets/contact-info-widget.php:47
+msgid "Phone label"
+msgstr "Oznaka za telefon"
+
+# @ simple-contact-info
+#: inc/widgets/contact-info-widget.php:74
+msgid "Fax number"
+msgstr "Broj faxa"
+
+# @ simple-contact-info
+#: inc/widgets/contact-info-widget.php:82
+msgid "Fax label"
+msgstr "Oznaka za fax"
+
+# @ simple-contact-info
+#: inc/widgets/contact-info-widget.php:92
+msgid "Email"
+msgstr "Email"
+
+# @ simple-contact-info
+#: inc/widgets/contact-info-widget.php:100
+msgid "Email label"
+msgstr "Oznaka za email"
+
+# @ simple-contact-info
+#: inc/widgets/contact-info-widget.php:118
+msgid "Phone:"
+msgstr "Telefon:"
+
+# @ simple-contact-info
+#: inc/widgets/contact-info-widget.php:120
+msgid "Fax:"
+msgstr "Fax:"
+
+# @ simple-contact-info
+#: inc/widgets/contact-info-widget.php:121
+msgid "Email:"
+msgstr "Email:"
+
+# @ simple-contact-info
+#: inc/widgets/contact-googlemaps-widget.php:12
+msgid ""
+"Displays a Google Map based on the address that you entered in the settings."
+msgstr "tipPrikaži Google Map na osnovu adrese koju ste uneli u postavke."
+
+# @ simple-contact-info
+#: inc/widgets/contact-googlemaps-widget.php:32
+msgid "Type"
+msgstr "Tip"
+
+# @ default
+#: inc/widgets/contact-googlemaps-widget.php:34
+msgid "Select type"
+msgstr "Izaberi "
+
+# @ simple-contact-info
+#: inc/widgets/contact-googlemaps-widget.php:41
+msgid "Width"
+msgstr "Širina"
+
+# @ simple-contact-info
+#: inc/widgets/contact-googlemaps-widget.php:50
+msgid "Height"
+msgstr "Visina"
+
+# @ simple-contact-info
+#: inc/widgets/contact-googlemaps-widget.php:59
+msgid "Zoom"
+msgstr "Zoom"
+
+# @ simple-contact-info
+#. translators: plugin header field 'PluginURI'
+#: contact-info.php:0
+msgid "http://wordpress.org/plugins/simple-contact-info/"
+msgstr "http://wordpress.org/plugins/simple-contact-info/"
+
+# @ simple-contact-info
+#. translators: plugin header field 'Description'
+#: contact-info.php:0
+msgid ""
+"You can write contact information (facebook, phone, fax, address etc). You "
+"can use widgets or shortcode to display it anywhere you want."
+msgstr ""
+"Možete da upišete kontakt informacije(facebook,telefon,fax,adresa itd). "
+"Možete koristiti widgete ili skraćenice za prikaz gde god želite."
+
+# @ simple-contact-info
+#. translators: plugin header field 'Author'
+#: contact-info.php:0
+msgid "LehaMotovilov"
+msgstr "LehaMotovilov"
+
+# @ simple-contact-info
+#. translators: plugin header field 'AuthorURI'
+#: contact-info.php:0
+msgid "http://lehaqs.wordpress.com/"
+msgstr "http://lehaqs.wordpress.com/"
+
+# @ simple-contact-info
+#. translators: plugin header field 'Version'
+#: contact-info.php:0
+msgid "1.1.3"
+msgstr "1.1.3"
+
+# @ simple-contact-info
+#: contact-info.php:255
+msgid "Mobile phone number"
+msgstr "Broj mobilnog"
+
+# @ simple-contact-info
+#: inc/widgets/contact-info-widget.php:56
+msgid "Mobile Phone number"
+msgstr "Broj mobilnog"
+
+# @ simple-contact-info
+#: inc/widgets/contact-info-widget.php:64
+msgid "Mobile Phone label"
+msgstr "Oznaka broja mobilnog"
+
+# @ simple-contact-info
+#: inc/widgets/contact-info-widget.php:119
+msgid "Mobile Phone:"
+msgstr "Mobilni telefon:"

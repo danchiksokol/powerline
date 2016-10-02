@@ -1,0 +1,18 @@
+WP Admin Bar Removal - Build 2015-09-10 (Version 2014.0707.0383) Checksum
+
+--------------------------- Tags Branche 2014 ---------------------------
+
+index.html                       7BFCA8C40496ED3D3847BC234BB62F1DE23D9AC7
+.htaccess                        F1299D142116E068A20C172769B1C76F0123370D
+gpl-2.0.txt                      4CC77B90AF91E615A64AE04893FDFFA7939DB84C
+humans.txt                       B23DC35E29428A33E6B8F86B6B7E96706997B741
+index.php                        C1F5BD88927AABB87A0E99889A16E69C7C4C5780
+license.txt                      4CC77B90AF91E615A64AE04893FDFFA7939DB84C
+readme.txt                       978C1C3FD5AB14188F4B802513B9134D012DA2F2
+wp-admin-bar-removal.css         BA5F0924FB596A7FB8F29ABFC52BDE7B5B67C144
+wp-admin-bar-removal.js          F3E65414F26C5B78A20FAB88CD813A04679E14D7
+wp-admin-bar-removal.php         
+
+/languages/
+
+wp-admin-bar-removal.pot         DA39A3EE5E6B4B0D3255BFEF95601890AFD80709

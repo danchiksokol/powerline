@@ -1,0 +1,15 @@
+@import url(reset.css);
+
+body { font-family: 'Droid Serif', serif; font-color:black; }
+
+#logo { max-width:100%;}
+
+#header { text-align: center; border-bottom: 1px solid #999; }
+
+#header p { margin:5px 0px; }
+
+#content { margin:0 auto; padding: 8% 0; text-align: center; }
+
+#headline { font-family:'Oswald', sans-serif; font-size: 300%; margin-top:5px; margin-bottom:5px;}
+
+

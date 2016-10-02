@@ -1,0 +1,140 @@
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+
+body
+{
+	background: url(../images/pattern.png) repeat center center #202020;   
+	font-family: 'Roboto', sans-serif;
+	color:#fff;
+}
+
+.wrapper
+{
+	max-width:715px;
+   /* max-width:900px;*/
+	width:100%;
+	margin:22px auto 0 auto;
+}
+
+
+.wrapper .wrapper-content
+{
+	width:86.01398601398601%;
+	background:url(../images/pattern.png) repeat center center #0b0b0b;
+	border-radius:45px;
+	-moz-border-radius:45px;
+	-webkit-border-radius:45px;
+	padding:15px 6.993006993006993%;
+}
+
+.wrapper .wrapper-content .header h1
+{
+	color:#fede00;
+	font-size:13px;
+	text-align:center;
+	font-weight:normal;
+}
+
+.wrapper .wrapper-content .image-logo
+{
+	margin-top:20px;
+	position:relative;
+}
+
+.wrapper .wrapper-content .image-logo .toLeft
+{
+	width:41.6260162601626%;
+	margin-left:-125px;
+}
+
+.wrapper .wrapper-content .image-logo .toLeft img
+{
+	max-width:256px;
+	width:100%;
+}
+
+.wrapper .wrapper-content .image-logo .toMiddle
+{
+	text-align:right;    
+}
+
+
+.wrapper .wrapper-content .image-logo .toMiddle img
+{
+	margin-top:26px;
+    width:auto;
+    height:78px;  
+}
+
+@media screen and (max-width:600px)
+{
+	
+	.wrapper
+	{
+		margin-bottom:22px;		
+	}
+	
+	.wrapper .wrapper-content .image-logo .toLeft
+	{
+		display:none;		
+	}
+	
+	.wrapper .wrapper-content .image-logo .toMiddle
+	{
+		width:100%;
+		text-align:center;		
+	}
+}
+
+
+.wrapper .wrapper-content .content-wrapper .headline
+{
+	font-size:50px;
+	font-weight:700;
+	text-align:center;
+	color:#fede00;
+	margin-top:23px;
+	margin-bottom:40px;
+}
+
+.wrapper .wrapper-content .content-wrapper  .content
+{
+	font-size:18px;
+	text-align:center;
+	line-height:20px;
+	font-weight:300;
+}
+
+
+.wrapper .wrapper-content .footer
+{
+	margin-top:50px;
+	text-align:center;
+	color:#fede00;
+	font-size:13px;
+}
+
+.wrapper .wrapper-content .footer a
+{
+	color:#fede00;
+	text-decoration:none;
+}
+
+.toLeft
+{
+	float:left;
+}
+
+.toRight
+{
+	float:right;
+	text-align:right;
+}
+
+.clear
+{
+	clear:both;
+}
+
+

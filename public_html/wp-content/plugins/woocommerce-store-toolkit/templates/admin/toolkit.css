@@ -1,0 +1,59 @@
+/* Tabbed navigation */
+
+.woocommerce_page_woo_st h2 .nav-tab {
+	font-size: 16px;
+	line-height:20px;
+	margin-right:0;
+}
+.woocommerce_page_woo_st h2.nav-tab-wrapper {
+	padding-left:7px;
+	padding-top:17px;
+}
+
+/* Store Toolkit */
+
+.woocommerce_page_woo_st .form-table th {
+	width:20%;
+}
+
+/* Edit Category */
+
+body.taxonomy-product_cat table.category_data th,
+body.taxonomy-product_tag table.tag_data th,
+body.taxonomy-product_brand table.brand_data th,
+body.user-edit-php table.user_data th,
+body.profile-php table.user_data th {
+	padding:8px 10px;
+}
+
+/* Support - Donate / Rate */
+
+.woocommerce_page_woo_st .support-donate_rate {
+	display:block;
+	float:right;
+}
+.woocommerce_page_woo_st .support-donate_rate p {
+	margin-top:16px;
+}
+.woocommerce_page_woo_st .support-donate_rate .star {
+	vertical-align:bottom;
+	display:inline-block;
+	width:17px;
+	height:17px;
+	background:url('images/star.png') no-repeat;
+}
+.woocommerce_page_woo_st .support-donate_rate span {
+	display:none;
+}
+
+.woocommerce_page_woo_st p.submit {
+	padding:0;
+	margin:0;
+}
+.woocommerce_page_woo_st table.form-table {
+	margin-bottom:0.7em;
+}
+.woocommerce_page_woo_st .form-table th,
+.woocommerce_page_woo_st .form-table td {
+	padding:0;
+}
